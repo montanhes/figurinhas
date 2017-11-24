@@ -8,7 +8,6 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import AccountCircle from 'material-ui-icons/AccountCircle';
 import Switch from 'material-ui/Switch';
-//import { FormControlLabel, FormGroup } from 'material-ui/Form';
 import Menu, { MenuItem } from 'material-ui/Menu';
 
 const styles = theme => ({
@@ -51,9 +50,6 @@ class MenuAppBar extends React.Component {
             <div className={classes.root}>
                 <AppBar position="static">
                     <Toolbar>
-                        <IconButton className={classes.menuButton} color="contrast" aria-label="Menu">
-                            <MenuIcon />
-                        </IconButton>
                         <Typography type="title" color="inherit" className={classes.flex}>Figurinhas</Typography>
                         {auth && (
                             <div>
