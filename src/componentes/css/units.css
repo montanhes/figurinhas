@@ -1,0 +1,31 @@
+.unitList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 150px;
+    flex-flow: row wrap;
+}
+.unit {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 10px;
+}
+.unit-img {
+    height: 100px;
+}
+.unit-show {
+    opacity: 1;
+    filter: none;
+}
+.unit-hide {
+    opacity: 0.4;
+    filter: grayscale(100%);
+}
+@media (max-width: 768px) { 
+    .unitList {
+        margin: 10px 0px;
+    }
+}

@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^4.6.2",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4",
     "material-design-icons": "^3.0.1",
     "material-ui": "^1.0.0-beta.21",
     "material-ui-icons": "^1.0.0-beta.17",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "typeface-roboto": "0.0.45"
   },
