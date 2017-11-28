@@ -2,6 +2,7 @@
   "name": "figurinhas",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://oakz.org/ffbecollection",
   "dependencies": {
     "firebase": "^4.6.2",
     "font-awesome": "^4.7.0",

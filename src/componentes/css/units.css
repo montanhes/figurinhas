@@ -16,10 +16,6 @@
 .unit-img {
     height: 100px;
 }
-.unit-show {
-    opacity: 1;
-    filter: none;
-}
 .unit-hide {
     opacity: 0.4;
     filter: grayscale(100%);
