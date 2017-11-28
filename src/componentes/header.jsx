@@ -19,6 +19,17 @@ const styles = theme => ({
 
 class MenuAppBar extends PureComponent {
 
+    constructor(props) {
+        super(props)
+        this.copyLink = this.copyLink.bind(this)
+    }
+
+    copyLink(){
+        let copyText = document.getElementById('shareLink');
+        copyText.select();
+        document.execCommand('copy');
+    }
+
     render() {
         const { classes } = this.props
         return (
@@ -27,6 +38,12 @@ class MenuAppBar extends PureComponent {
                     <Toolbar>
                         <Typography type="title" color="inherit" className={classes.flex}>FFBE Unit Collection</Typography>
                             <div className='login-box'>
+                                {this.props.user ? 
+                                    <div className='shareLink'>
+                                        <div id='shareLink'>https://oakz.org/ffbecollection/player/{this.props.user.uid}</div>
+                                        <Button color="contrast" onClick={this.copyLink}>Copy</Button>
+                                    </div>
+                                    : <div></div> }
                                 {this.props.user ? <div className='img-box'><img className='user-img' src={this.props.user.photoURL} alt={this.props.user.displayName}/></div> : <div></div> }
                                 {this.props.user ?
                                     <Button color="contrast" onClick={this.props.logout}>Logout</Button>
@@ -46,6 +63,7 @@ MenuAppBar.propTypes = {
     login: PropTypes.func.isRequired,
     logout: PropTypes.func.isRequired,
     user: PropTypes.object
+
 }
 
 MenuAppBar.defaultProps = {

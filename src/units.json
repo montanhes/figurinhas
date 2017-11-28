@@ -7,14 +7,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6b/Unit-Rain-6.png",
         "unit_id": "100000102"
     },
-    "100000115": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Hunter Rain",
-        "job": "Hunter",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100000115"
-    },
     "100000202": {
         "rarity_min": 2,
         "rarity_max": 6,
@@ -22,14 +14,6 @@
         "job": "Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/af/Unit-Lasswell-6.png",
         "unit_id": "100000202"
-    },
-    "100000215": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Hunter Lasswell",
-        "job": "Hunter",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100000215"
     },
     "100000302": {
         "rarity_min": 2,
@@ -47,14 +31,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/92/Unit-Dark_Fina-6.png",
         "unit_id": "100000315"
     },
-    "100000324": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Hunter Fina",
-        "job": "Hunter",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100000324"
-    },
     "100000403": {
         "rarity_min": 3,
         "rarity_max": 5,
@@ -62,14 +38,6 @@
         "job": "Tactician",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/59/Unit-Nichol-5.png",
         "unit_id": "100000403"
-    },
-    "100000414": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Hunter Nichol",
-        "job": "Hunter",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100000414"
     },
     "100000503": {
         "rarity_min": 3,
@@ -79,14 +47,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/49/Unit-Lid-5.png",
         "unit_id": "100000503"
     },
-    "100000513": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Hunter Lid",
-        "job": "Hunter",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100000513"
-    },
     "100000603": {
         "rarity_min": 3,
         "rarity_max": 5,
@@ -95,14 +55,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3f/Unit-Sakura-5.png",
         "unit_id": "100000603"
     },
-    "100000614": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Hunter Sakura",
-        "job": "Hunter",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100000614"
-    },
     "100000703": {
         "rarity_min": 3,
         "rarity_max": 5,
@@ -110,14 +62,6 @@
         "job": "Mercenary",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1d/Unit-Jake-5.png",
         "unit_id": "100000703"
-    },
-    "100000713": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Hunter Jake",
-        "job": "Hunter",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100000713"
     },
     "100000901": {
         "rarity_min": 1,
@@ -719,22 +663,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/35/Unit-Moogle-6.png",
         "unit_id": "100008804"
     },
-    "100008903": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Guromu",
-        "job": "Swordsman",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100008903"
-    },
-    "100009004": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Aura",
-        "job": "Warrior",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009004"
-    },
     "100009105": {
         "rarity_min": 5,
         "rarity_max": 6,
@@ -743,22 +671,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/8a/Unit-Loren-6.png",
         "unit_id": "100009105"
     },
-    "100009204": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Kupolkan",
-        "job": "Mog Friend",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009204"
-    },
-    "100009304": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Ashteroze",
-        "job": "Flowery Lady",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009304"
-    },
     "100009405": {
         "rarity_min": 5,
         "rarity_max": 6,
@@ -766,46 +678,6 @@
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/74/Unit-Kelsus-6.png",
         "unit_id": "100009405"
-    },
-    "100009504": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Nyalu",
-        "job": "Costume Girl",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009504"
-    },
-    "100009604": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Sandee",
-        "job": "Dream Mage",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009604"
-    },
-    "100009704": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Grinfield",
-        "job": "Tailor",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009704"
-    },
-    "100009805": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Elfreeda",
-        "job": "Swordsman",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009805"
-    },
-    "100009903": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Conrad",
-        "job": "Machinist",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100009903"
     },
     "100010104": {
         "rarity_min": 4,
@@ -831,22 +703,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4e/Unit-Yuri-5.png",
         "unit_id": "100010303"
     },
-    "100010405": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Roy",
-        "job": "Bard",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100010405"
-    },
-    "100010504": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "William",
-        "job": "Black Mage",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100010504"
-    },
     "100010604": {
         "rarity_min": 4,
         "rarity_max": 6,
@@ -870,142 +726,6 @@
         "job": "Dragoon",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1b/Unit-Duke-.png",
         "unit_id": "100010805"
-    },
-    "100010904": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Olif",
-        "job": "Green Mage",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100010904"
-    },
-    "100011004": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Mystea",
-        "job": "Barrier Mage",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011004"
-    },
-    "100011103": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Charie",
-        "job": "Dancer",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011103"
-    },
-    "100011203": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Ryunan",
-        "job": "Dragoon",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011203"
-    },
-    "100011305": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Jiraiya",
-        "job": "Ninja",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011305"
-    },
-    "100011404": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Kaede",
-        "job": "Chocobo Rider",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011404"
-    },
-    "100011504": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Ohga",
-        "job": "Samurai",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011504"
-    },
-    "100011603": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Otogiri",
-        "job": "Salve-maker",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011603"
-    },
-    "100011705": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Ice Knight Lasswell",
-        "job": "Knight",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011705"
-    },
-    "100011805": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Lotus Mage Fina",
-        "job": "Mage",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100011805"
-    },
-    "100012405": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Blossom Sage Sakura",
-        "job": "Sage",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100012405"
-    },
-    "100012605": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Kunshira",
-        "job": "Spellblade",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100012605"
-    },
-    "100012704": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Wadow",
-        "job": "Ninja",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100012704"
-    },
-    "100013004": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Verun",
-        "job": "Blacksmith",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100013004"
-    },
-    "100013104": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Cedona",
-        "job": "Gladiator",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100013104"
-    },
-    "100013203": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Erwin",
-        "job": "Spellblade",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "100013203"
-    },
-    "199000101": {
-        "rarity_min": 1,
-        "rarity_max": 1,
-        "name": "Emma (Battle NPC)",
-        "job": "Enhancer",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "199000101"
     },
     "201000104": {
         "rarity_min": 4,
@@ -1399,14 +1119,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/95/Unit-Leo-5.png",
         "unit_id": "206001803"
     },
-    "207000105": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Cloud",
-        "job": "SOLDIER",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "207000105"
-    },
     "209000103": {
         "rarity_min": 3,
         "rarity_max": 5,
@@ -1431,14 +1143,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f3/Unit-Garnet-5.png",
         "unit_id": "209000304"
     },
-    "209000404": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Steiner",
-        "job": "Knight",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "209000404"
-    },
     "209000503": {
         "rarity_min": 3,
         "rarity_max": 5,
@@ -1446,14 +1150,6 @@
         "job": "Dragoon",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/fc/Unit-Freya-5.png",
         "unit_id": "209000503"
-    },
-    "209000705": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Eiko",
-        "job": "Evoker",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "209000705"
     },
     "209000803": {
         "rarity_min": 3,
@@ -1479,22 +1175,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/47/Unit-Kuja-5.png",
         "unit_id": "209001003"
     },
-    "209001105": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Beatrix",
-        "job": "General",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "209001105"
-    },
-    "209001203": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Black Waltz 3",
-        "job": "Black Mage Warrior",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "209001203"
-    },
     "210000105": {
         "rarity_min": 5,
         "rarity_max": 6,
@@ -1502,14 +1182,6 @@
         "job": "Guardian",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0d/Unit-Tidus-6.png",
         "unit_id": "210000105"
-    },
-    "210000205": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Yuna",
-        "job": "Evoker",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "210000205"
     },
     "210000303": {
         "rarity_min": 3,
@@ -1519,14 +1191,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/68/Unit-Wakka-5.png",
         "unit_id": "210000303"
     },
-    "210000405": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Lulu",
-        "job": "Guardian",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "210000405"
-    },
     "210000704": {
         "rarity_min": 4,
         "rarity_max": 6,
@@ -1534,14 +1198,6 @@
         "job": "Guardian",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/ee/Unit-Rikku-6.png",
         "unit_id": "210000704"
-    },
-    "210000804": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Seymour",
-        "job": "Priest",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "210000804"
     },
     "211000103": {
         "rarity_min": 3,
@@ -1598,14 +1254,6 @@
         "job": "Dancer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f0/Unit-Penelo-5.png",
         "unit_id": "212000403"
-    },
-    "212000505": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Balthier",
-        "job": "Sky Pirate",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "212000505"
     },
     "212000603": {
         "rarity_min": 3,
@@ -1750,22 +1398,6 @@
         "job": "Prince's Friend",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6a/Unit-Iris-5.png",
         "unit_id": "215000403"
-    },
-    "215000605": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Aranea",
-        "job": "Commodore",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "215000605"
-    },
-    "215000705": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Prompto",
-        "job": "Prince's Friend",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "215000705"
     },
     "215001105": {
         "rarity_min": 5,
@@ -2151,14 +1783,6 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b9/Unit-Adel-4.png",
         "unit_id": "303000103"
     },
-    "303000204": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "",
-        "job": "Emperor",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "303000204"
-    },
     "304000105": {
         "rarity_min": 5,
         "rarity_max": 6,
@@ -2182,94 +1806,6 @@
         "job": "Sprite",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9f/Unit-Popoi-6.png",
         "unit_id": "304000303"
-    },
-    "306000105": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Dragonlord",
-        "job": "Dragon King",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "306000105"
-    },
-    "306000204": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Orochi",
-        "job": "Serpent",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "306000204"
-    },
-    "306000303": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Robbin\" \"Ood",
-        "job": "Kandar",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "306000303"
-    },
-    "306000404": {
-        "rarity_min": 4,
-        "rarity_max": 5,
-        "name": "Killing Machine",
-        "job": "Killer Machine",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "306000404"
-    },
-    "306000503": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Golem",
-        "job": "Golem",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "306000503"
-    },
-    "306000603": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Slime",
-        "job": "Slime",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "306000603"
-    },
-    "306000804": {
-        "rarity_min": 4,
-        "rarity_max": 5,
-        "name": "Liquid Metal Slime",
-        "job": "Liquid Metal Slime",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "306000804"
-    },
-    "309000105": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Julian",
-        "job": null,
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "309000105"
-    },
-    "309000205": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Katarina",
-        "job": null,
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "309000205"
-    },
-    "309000304": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Harid",
-        "job": "Royal Vagrant",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "309000304"
-    },
-    "309000403": {
-        "rarity_min": 3,
-        "rarity_max": 5,
-        "name": "Robyn",
-        "job": "Masked Wonder",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "309000403"
     },
     "310000105": {
         "rarity_min": 5,
@@ -2302,38 +1838,6 @@
         "job": "YoRHa Troop",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c9/Unit-21O-5.png",
         "unit_id": "310000403"
-    },
-    "311000105": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Hero",
-        "job": "Gemma Knight",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "311000105"
-    },
-    "312000105": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Lise",
-        "job": "Amazon",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "312000105"
-    },
-    "312000205": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Hawk",
-        "job": "Thief",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "312000205"
-    },
-    "312000305": {
-        "rarity_min": 5,
-        "rarity_max": 6,
-        "name": "Kevin",
-        "job": "Grappler",
-        "img": "https://i1.wp.com/geekvox.com.br/wp-content/themes/planetshine-goodgame/theme/assets/images/no-image.png?w=150",
-        "unit_id": "312000305"
     },
     "312000404": {
         "rarity_min": 4,

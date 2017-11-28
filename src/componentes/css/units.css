@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px 150px;
     flex-flow: row wrap;
 }
@@ -20,8 +26,18 @@
     opacity: 0.4;
     filter: grayscale(100%);
 }
+h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 768px) { 
     .unitList {
         margin: 10px 0px;
     }
+}
+.fa {
+    color: #efcc0f;
+    font-size: 2em;
+    margin: 0px 3px;
 }

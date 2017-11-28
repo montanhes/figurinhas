@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
+// eslint-disable-next-line
 import firebase, { auth, provider } from './firebase'
 import Header from './componentes/header'
 import Units from './componentes/units'
 import Footer from './componentes/footer'
 import 'typeface-roboto'
+import { BrowserRouter } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
+import Player from './componentes/player'
 
 class App extends Component {
 
@@ -43,7 +47,12 @@ class App extends Component {
         return ( 
             <div>
                 <Header user={this.state.user} login={this.login} logout={this.logout} />
-                <Units user={this.state.user} />
+                <BrowserRouter>
+                    <Switch>
+                        <Route exact path='/' component={Units} user={this.state.user} />
+                        <Route path='/player/:pid' component={Player} />
+                    </Switch>
+                </BrowserRouter>
                 <Footer />
             </div>
         )
