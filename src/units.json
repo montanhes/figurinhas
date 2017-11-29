@@ -5,7 +5,8 @@
         "name": "Rain",
         "job": "Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6b/Unit-Rain-6.png",
-        "unit_id": "100000102"
+        "unit_id": "100000102",
+        "limited": false
     },
     "100000202": {
         "rarity_min": 2,
@@ -13,7 +14,8 @@
         "name": "Lasswell",
         "job": "Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/af/Unit-Lasswell-6.png",
-        "unit_id": "100000202"
+        "unit_id": "100000202",
+        "limited": false
     },
     "100000302": {
         "rarity_min": 2,
@@ -21,7 +23,8 @@
         "name": "Fina",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b6/Unit-Fina-6.png",
-        "unit_id": "100000302"
+        "unit_id": "100000302",
+        "limited": false
     },
     "100000315": {
         "rarity_min": 5,
@@ -29,7 +32,8 @@
         "name": "Dark Fina",
         "job": "Dark Spirit",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/92/Unit-Dark_Fina-6.png",
-        "unit_id": "100000315"
+        "unit_id": "100000315",
+        "limited": false
     },
     "100000403": {
         "rarity_min": 3,
@@ -37,7 +41,8 @@
         "name": "Nichol",
         "job": "Tactician",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/59/Unit-Nichol-5.png",
-        "unit_id": "100000403"
+        "unit_id": "100000403",
+        "limited": false
     },
     "100000503": {
         "rarity_min": 3,
@@ -45,7 +50,8 @@
         "name": "Lid",
         "job": "Airship Tech",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/49/Unit-Lid-5.png",
-        "unit_id": "100000503"
+        "unit_id": "100000503",
+        "limited": false
     },
     "100000603": {
         "rarity_min": 3,
@@ -53,7 +59,8 @@
         "name": "Sakura",
         "job": "Sage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3f/Unit-Sakura-5.png",
-        "unit_id": "100000603"
+        "unit_id": "100000603",
+        "limited": false
     },
     "100000703": {
         "rarity_min": 3,
@@ -61,7 +68,8 @@
         "name": "Jake",
         "job": "Mercenary",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1d/Unit-Jake-5.png",
-        "unit_id": "100000703"
+        "unit_id": "100000703",
+        "limited": false
     },
     "100000901": {
         "rarity_min": 1,
@@ -69,7 +77,8 @@
         "name": "Rizer",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d3/Unit-Rizer-2.png",
-        "unit_id": "100000901"
+        "unit_id": "100000901",
+        "limited": false
     },
     "100001001": {
         "rarity_min": 1,
@@ -77,7 +86,8 @@
         "name": "Leah",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/de/Unit-Leah-2.png",
-        "unit_id": "100001001"
+        "unit_id": "100001001",
+        "limited": false
     },
     "100001101": {
         "rarity_min": 1,
@@ -85,7 +95,8 @@
         "name": "Tronn",
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/bf/Unit-Tronn-2.png",
-        "unit_id": "100001101"
+        "unit_id": "100001101",
+        "limited": false
     },
     "100001201": {
         "rarity_min": 1,
@@ -93,7 +104,8 @@
         "name": "Eldin",
         "job": "Thief",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4c/Unit-Eldin-2.png",
-        "unit_id": "100001201"
+        "unit_id": "100001201",
+        "limited": false
     },
     "100001301": {
         "rarity_min": 1,
@@ -101,7 +113,8 @@
         "name": "Baurg",
         "job": "Monk",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/dd/Unit-Baurg-2.png",
-        "unit_id": "100001301"
+        "unit_id": "100001301",
+        "limited": false
     },
     "100001401": {
         "rarity_min": 1,
@@ -109,7 +122,8 @@
         "name": "Gimlee",
         "job": "Ranger",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/a4/Unit-Gimlee-2.png",
-        "unit_id": "100001401"
+        "unit_id": "100001401",
+        "limited": false
     },
     "100001501": {
         "rarity_min": 1,
@@ -117,7 +131,8 @@
         "name": "Maxell",
         "job": "Gunner",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/76/Unit-Maxell-2.png",
-        "unit_id": "100001501"
+        "unit_id": "100001501",
+        "limited": false
     },
     "100001601": {
         "rarity_min": 1,
@@ -125,7 +140,8 @@
         "name": "Liza",
         "job": "Bard",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/84/Unit-Liza-2.png",
-        "unit_id": "100001601"
+        "unit_id": "100001601",
+        "limited": false
     },
     "100001702": {
         "rarity_min": 2,
@@ -133,7 +149,8 @@
         "name": "Shiki",
         "job": "Samurai",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9f/Unit-Shiki-3.png",
-        "unit_id": "100001702"
+        "unit_id": "100001702",
+        "limited": false
     },
     "100001802": {
         "rarity_min": 2,
@@ -141,7 +158,8 @@
         "name": "Mizell",
         "job": "Green Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/44/Unit-Mizell-3.png",
-        "unit_id": "100001802"
+        "unit_id": "100001802",
+        "limited": false
     },
     "100001902": {
         "rarity_min": 2,
@@ -149,7 +167,8 @@
         "name": "Ronaldo",
         "job": "Spellblade",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/58/Unit-Ronaldo-3.png",
-        "unit_id": "100001902"
+        "unit_id": "100001902",
+        "limited": false
     },
     "100002002": {
         "rarity_min": 2,
@@ -157,7 +176,8 @@
         "name": "Mel",
         "job": "Salve-maker",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/68/Unit-Mel-3.png",
-        "unit_id": "100002002"
+        "unit_id": "100002002",
+        "limited": false
     },
     "100002103": {
         "rarity_min": 3,
@@ -165,7 +185,8 @@
         "name": "Clyne",
         "job": "Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/99/Unit-Clyne-4.png",
-        "unit_id": "100002103"
+        "unit_id": "100002103",
+        "limited": false
     },
     "100002203": {
         "rarity_min": 3,
@@ -173,7 +194,8 @@
         "name": "Anzelm",
         "job": "Red Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/04/Unit-Anzelm-4.png",
-        "unit_id": "100002203"
+        "unit_id": "100002203",
+        "limited": false
     },
     "100002303": {
         "rarity_min": 3,
@@ -181,7 +203,8 @@
         "name": "Luna",
         "job": "Ranger",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d4/Unit-Luna-4.png",
-        "unit_id": "100002303"
+        "unit_id": "100002303",
+        "limited": false
     },
     "100002403": {
         "rarity_min": 3,
@@ -189,7 +212,8 @@
         "name": "Bedile",
         "job": "Spellblade",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f8/Unit-Bedile-4.png",
-        "unit_id": "100002403"
+        "unit_id": "100002403",
+        "limited": false
     },
     "100002503": {
         "rarity_min": 3,
@@ -197,7 +221,8 @@
         "name": "Duane",
         "job": "Warmage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/ca/Unit-Duane-5.png",
-        "unit_id": "100002503"
+        "unit_id": "100002503",
+        "limited": false
     },
     "100002603": {
         "rarity_min": 3,
@@ -205,7 +230,8 @@
         "name": "Cerius",
         "job": "Green Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/02/Unit-Cerius-6.png",
-        "unit_id": "100002603"
+        "unit_id": "100002603",
+        "limited": false
     },
     "100002703": {
         "rarity_min": 3,
@@ -213,7 +239,8 @@
         "name": "Roselia",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/cf/Unit-Roselia-5.png",
-        "unit_id": "100002703"
+        "unit_id": "100002703",
+        "limited": false
     },
     "100002803": {
         "rarity_min": 3,
@@ -221,7 +248,8 @@
         "name": "Medius",
         "job": "Gunner",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/89/Unit-Medius-6.png",
-        "unit_id": "100002803"
+        "unit_id": "100002803",
+        "limited": false
     },
     "100002901": {
         "rarity_min": 1,
@@ -229,7 +257,8 @@
         "name": "Sarai",
         "job": "Dancer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/10/Unit-Sarai-2.png",
-        "unit_id": "100002901"
+        "unit_id": "100002901",
+        "limited": false
     },
     "100003002": {
         "rarity_min": 2,
@@ -237,7 +266,8 @@
         "name": "Paula",
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f9/Unit-Paula-3.png",
-        "unit_id": "100003002"
+        "unit_id": "100003002",
+        "limited": false
     },
     "100003202": {
         "rarity_min": 2,
@@ -245,7 +275,8 @@
         "name": "Kenyu",
         "job": "Black Belt",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/63/Unit-Kenyu-3.png",
-        "unit_id": "100003202"
+        "unit_id": "100003202",
+        "limited": false
     },
     "100003302": {
         "rarity_min": 2,
@@ -253,7 +284,8 @@
         "name": "Ollie",
         "job": "Viking",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f4/Unit-Ollie-3.png",
-        "unit_id": "100003302"
+        "unit_id": "100003302",
+        "limited": false
     },
     "100003402": {
         "rarity_min": 2,
@@ -261,7 +293,8 @@
         "name": "Carrie",
         "job": "Machinist",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d3/Unit-Carrie-3.png",
-        "unit_id": "100003402"
+        "unit_id": "100003402",
+        "limited": false
     },
     "100003502": {
         "rarity_min": 2,
@@ -269,7 +302,8 @@
         "name": "Skaha",
         "job": "Dragoon",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/32/Unit-Skaha-3.png",
-        "unit_id": "100003502"
+        "unit_id": "100003502",
+        "limited": false
     },
     "100003602": {
         "rarity_min": 2,
@@ -277,7 +311,8 @@
         "name": "Montana",
         "job": "Adventurer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c1/Unit-Montana-3.png",
-        "unit_id": "100003602"
+        "unit_id": "100003602",
+        "limited": false
     },
     "100003703": {
         "rarity_min": 3,
@@ -285,7 +320,8 @@
         "name": "Russell",
         "job": "Gladiator",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/01/Unit-Russell-4.png",
-        "unit_id": "100003703"
+        "unit_id": "100003703",
+        "limited": false
     },
     "100003803": {
         "rarity_min": 3,
@@ -293,7 +329,8 @@
         "name": "Miyuki",
         "job": "Ninja",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/ed/Unit-Miyuki-5.png",
-        "unit_id": "100003803"
+        "unit_id": "100003803",
+        "limited": false
     },
     "100003903": {
         "rarity_min": 3,
@@ -301,7 +338,8 @@
         "name": "Gilbert",
         "job": "Bard",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/30/Unit-Gilbert-5.png",
-        "unit_id": "100003903"
+        "unit_id": "100003903",
+        "limited": false
     },
     "100004003": {
         "rarity_min": 3,
@@ -309,7 +347,8 @@
         "name": "Xiao",
         "job": "Monk",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/7a/Unit-Xiao-6.png",
-        "unit_id": "100004003"
+        "unit_id": "100004003",
+        "limited": false
     },
     "100004103": {
         "rarity_min": 3,
@@ -317,7 +356,8 @@
         "name": "Rakshasa",
         "job": "Spellblade",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0b/Unit-Rakshasa-5.png",
-        "unit_id": "100004103"
+        "unit_id": "100004103",
+        "limited": false
     },
     "100004203": {
         "rarity_min": 3,
@@ -325,7 +365,8 @@
         "name": "Ludmille",
         "job": "Red Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/04/Unit-Ludmille-5.png",
-        "unit_id": "100004203"
+        "unit_id": "100004203",
+        "limited": false
     },
     "100004303": {
         "rarity_min": 3,
@@ -333,7 +374,8 @@
         "name": "Charlotte",
         "job": "Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/78/Unit-Charlotte-6.png",
-        "unit_id": "100004303"
+        "unit_id": "100004303",
+        "limited": false
     },
     "100004403": {
         "rarity_min": 3,
@@ -341,7 +383,8 @@
         "name": "Artemios",
         "job": "Ranger",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/02/Unit-Artemios-5.png",
-        "unit_id": "100004403"
+        "unit_id": "100004403",
+        "limited": false
     },
     "100004604": {
         "rarity_min": 4,
@@ -349,7 +392,8 @@
         "name": "Chizuru",
         "job": "Samurai",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/80/Unit-Chizuru-6.png",
-        "unit_id": "100004604"
+        "unit_id": "100004604",
+        "limited": false
     },
     "100004703": {
         "rarity_min": 3,
@@ -357,7 +401,8 @@
         "name": "Hayate",
         "job": "Ninja",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/bc/Unit-Hayate-6.png",
-        "unit_id": "100004703"
+        "unit_id": "100004703",
+        "limited": false
     },
     "100004903": {
         "rarity_min": 3,
@@ -365,7 +410,8 @@
         "name": "Elle",
         "job": "Soldier",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4f/Unit-Elle-5.png",
-        "unit_id": "100004903"
+        "unit_id": "100004903",
+        "limited": false
     },
     "100005004": {
         "rarity_min": 4,
@@ -373,7 +419,8 @@
         "name": "Luka",
         "job": "Water Priestess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/75/Unit-Luka-6.png",
-        "unit_id": "100005004"
+        "unit_id": "100005004",
+        "limited": false
     },
     "100005104": {
         "rarity_min": 4,
@@ -381,7 +428,8 @@
         "name": "Mercedes",
         "job": "Pirate",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b6/Unit-Mercedes-6.png",
-        "unit_id": "100005104"
+        "unit_id": "100005104",
+        "limited": false
     },
     "100005203": {
         "rarity_min": 3,
@@ -389,7 +437,8 @@
         "name": "Lawrence",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b8/Unit-Lawrence-5.png",
-        "unit_id": "100005203"
+        "unit_id": "100005203",
+        "limited": false
     },
     "100005304": {
         "rarity_min": 4,
@@ -397,7 +446,8 @@
         "name": "Soleil",
         "job": "Dancer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/33/Unit-Soleil-6.png",
-        "unit_id": "100005304"
+        "unit_id": "100005304",
+        "limited": false
     },
     "100005404": {
         "rarity_min": 4,
@@ -405,7 +455,8 @@
         "name": "Shine",
         "job": "Spy",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/30/Unit-Shine-6.png",
-        "unit_id": "100005404"
+        "unit_id": "100005404",
+        "limited": false
     },
     "100005503": {
         "rarity_min": 3,
@@ -413,7 +464,8 @@
         "name": "Shera",
         "job": "Crown Prince",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/57/Unit-Shera-5.png",
-        "unit_id": "100005503"
+        "unit_id": "100005503",
+        "limited": false
     },
     "100005604": {
         "rarity_min": 4,
@@ -421,7 +473,8 @@
         "name": "Sozhe",
         "job": "Emperor",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/94/Unit-Sozhe-6.png",
-        "unit_id": "100005604"
+        "unit_id": "100005604",
+        "limited": false
     },
     "100005703": {
         "rarity_min": 3,
@@ -429,7 +482,8 @@
         "name": "Heltich",
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/2b/Unit-Heltich-5.png",
-        "unit_id": "100005703"
+        "unit_id": "100005703",
+        "limited": false
     },
     "100005805": {
         "rarity_min": 5,
@@ -437,7 +491,8 @@
         "name": "Marie",
         "job": "Green Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/79/Unit-Marie-6.png",
-        "unit_id": "100005805"
+        "unit_id": "100005805",
+        "limited": false
     },
     "100005905": {
         "rarity_min": 5,
@@ -445,7 +500,8 @@
         "name": "Aileen",
         "job": "Machinist",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/49/Unit-Aileen-6.png",
-        "unit_id": "100005905"
+        "unit_id": "100005905",
+        "limited": false
     },
     "100006003": {
         "rarity_min": 3,
@@ -453,7 +509,8 @@
         "name": "Ulrica",
         "job": "Berserker",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/14/Unit-Ulrica-5.png",
-        "unit_id": "100006003"
+        "unit_id": "100006003",
+        "limited": false
     },
     "100006105": {
         "rarity_min": 5,
@@ -461,7 +518,8 @@
         "name": "Wilhelm",
         "job": "General",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f0/Unit-Wilhelm-6.png",
-        "unit_id": "100006105"
+        "unit_id": "100006105",
+        "limited": false
     },
     "100006204": {
         "rarity_min": 4,
@@ -469,7 +527,8 @@
         "name": "Grace",
         "job": "Magitek Soldier",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/8c/Unit-Grace-6.png",
-        "unit_id": "100006204"
+        "unit_id": "100006204",
+        "limited": false
     },
     "100006303": {
         "rarity_min": 3,
@@ -477,7 +536,8 @@
         "name": "Abel",
         "job": "Mercenary",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/35/Unit-Abel-5.png",
-        "unit_id": "100006303"
+        "unit_id": "100006303",
+        "limited": false
     },
     "100006404": {
         "rarity_min": 4,
@@ -485,7 +545,8 @@
         "name": "Goken",
         "job": "Monk",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/da/Unit-Goken-6.png",
-        "unit_id": "100006404"
+        "unit_id": "100006404",
+        "limited": false
     },
     "100006503": {
         "rarity_min": 3,
@@ -493,7 +554,8 @@
         "name": "Jean",
         "job": "Gunner",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/91/Unit-Jean-5.png",
-        "unit_id": "100006503"
+        "unit_id": "100006503",
+        "limited": false
     },
     "100006603": {
         "rarity_min": 3,
@@ -501,7 +563,8 @@
         "name": "Camille",
         "job": "Swordsman",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/e4/Unit-Camille-5.png",
-        "unit_id": "100006603"
+        "unit_id": "100006603",
+        "limited": false
     },
     "100006704": {
         "rarity_min": 4,
@@ -509,7 +572,8 @@
         "name": "Ilias",
         "job": "Salve-maker",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/2b/Unit-Ilias-6.png",
-        "unit_id": "100006704"
+        "unit_id": "100006704",
+        "limited": false
     },
     "100006805": {
         "rarity_min": 5,
@@ -517,7 +581,8 @@
         "name": "Fohlen",
         "job": "Chocobo Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f3/Unit-Fohlen-6.png",
-        "unit_id": "100006805"
+        "unit_id": "100006805",
+        "limited": false
     },
     "100006904": {
         "rarity_min": 4,
@@ -525,7 +590,8 @@
         "name": "Victoria",
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/85/Unit-Victoria-6.png",
-        "unit_id": "100006904"
+        "unit_id": "100006904",
+        "limited": false
     },
     "100007004": {
         "rarity_min": 4,
@@ -533,7 +599,8 @@
         "name": "Amelia",
         "job": "Maid",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9e/Unit-Amelia-6.png",
-        "unit_id": "100007004"
+        "unit_id": "100007004",
+        "limited": false
     },
     "100007104": {
         "rarity_min": 4,
@@ -541,7 +608,8 @@
         "name": "Beach Time Fina",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/46/Unit-Beach_Time_Fina-6.png",
-        "unit_id": "100007104"
+        "unit_id": "100007104",
+        "limited": false
     },
     "100007205": {
         "rarity_min": 5,
@@ -549,7 +617,8 @@
         "name": "Seabreeze Dark Fina",
         "job": "Dark Spirit",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/28/Unit-Seabreeze_Dark_Fina-6.png",
-        "unit_id": "100007205"
+        "unit_id": "100007205",
+        "limited": false
     },
     "100007303": {
         "rarity_min": 3,
@@ -557,7 +626,8 @@
         "name": "Summer Lid",
         "job": "Airship Tech",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/e5/Unit-Summer_Lid-5.png",
-        "unit_id": "100007303"
+        "unit_id": "100007303",
+        "limited": false
     },
     "100007404": {
         "rarity_min": 4,
@@ -565,7 +635,8 @@
         "name": "Bran",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0b/Unit-Bran-6.png",
-        "unit_id": "100007404"
+        "unit_id": "100007404",
+        "limited": false
     },
     "100007505": {
         "rarity_min": 5,
@@ -573,7 +644,8 @@
         "name": "Lunera",
         "job": "Archer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f5/Unit-Lunera-6.png",
-        "unit_id": "100007505"
+        "unit_id": "100007505",
+        "limited": false
     },
     "100007603": {
         "rarity_min": 3,
@@ -581,7 +653,8 @@
         "name": "Ruggles",
         "job": "Blacksmith",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/98/Unit-Ruggles-5.png",
-        "unit_id": "100007603"
+        "unit_id": "100007603",
+        "limited": false
     },
     "100007705": {
         "rarity_min": 5,
@@ -589,7 +662,8 @@
         "name": "Veritas of the Dark",
         "job": "Veritas",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/19/Unit-Veritas_of_the_Dark-6.png",
-        "unit_id": "100007705"
+        "unit_id": "100007705",
+        "limited": false
     },
     "100007804": {
         "rarity_min": 4,
@@ -597,7 +671,8 @@
         "name": "Veritas of the Heavens",
         "job": "Veritas",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d4/Unit-Veritas_of_the_Heavens-6.png",
-        "unit_id": "100007804"
+        "unit_id": "100007804",
+        "limited": false
     },
     "100007904": {
         "rarity_min": 4,
@@ -605,7 +680,8 @@
         "name": "Veritas of the Waters",
         "job": "Veritas",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/32/Unit-Veritas_of_the_Waters-6.png",
-        "unit_id": "100007904"
+        "unit_id": "100007904",
+        "limited": false
     },
     "100008005": {
         "rarity_min": 5,
@@ -613,7 +689,8 @@
         "name": "Veritas of the Flame",
         "job": "Veritas",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/25/Unit-Veritas_of_the_Flame-6.png",
-        "unit_id": "100008005"
+        "unit_id": "100008005",
+        "limited": false
     },
     "100008104": {
         "rarity_min": 4,
@@ -621,7 +698,8 @@
         "name": "Veritas of the Earth",
         "job": "Veritas",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/e0/Unit-Veritas_of_the_Earth-6.png",
-        "unit_id": "100008104"
+        "unit_id": "100008104",
+        "limited": false
     },
     "100008205": {
         "rarity_min": 5,
@@ -629,7 +707,8 @@
         "name": "Veritas of the Light",
         "job": "Veritas",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/cd/Unit-Veritas_of_the_Light-6.png",
-        "unit_id": "100008205"
+        "unit_id": "100008205",
+        "limited": false
     },
     "100008504": {
         "rarity_min": 4,
@@ -637,7 +716,8 @@
         "name": "Helena",
         "job": "Adventurer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/51/Unit-Helena-6.png",
-        "unit_id": "100008504"
+        "unit_id": "100008504",
+        "limited": false
     },
     "100008605": {
         "rarity_min": 5,
@@ -645,7 +725,8 @@
         "name": "Ayaka",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f1/Unit-Ayaka-6.png",
-        "unit_id": "100008605"
+        "unit_id": "100008605",
+        "limited": false
     },
     "100008703": {
         "rarity_min": 3,
@@ -653,7 +734,8 @@
         "name": "Timothy",
         "job": "Sprite",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/16/Unit-Timothy-5.png",
-        "unit_id": "100008703"
+        "unit_id": "100008703",
+        "limited": false
     },
     "100008804": {
         "rarity_min": 4,
@@ -661,7 +743,8 @@
         "name": "Moogle",
         "job": "Moogle",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/35/Unit-Moogle-6.png",
-        "unit_id": "100008804"
+        "unit_id": "100008804",
+        "limited": true
     },
     "100009105": {
         "rarity_min": 5,
@@ -669,7 +752,8 @@
         "name": "Loren",
         "job": "Swordsman",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/8a/Unit-Loren-6.png",
-        "unit_id": "100009105"
+        "unit_id": "100009105",
+        "limited": false
     },
     "100009405": {
         "rarity_min": 5,
@@ -677,7 +761,8 @@
         "name": "Kelsus",
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/74/Unit-Kelsus-6.png",
-        "unit_id": "100009405"
+        "unit_id": "100009405",
+        "limited": true
     },
     "100010104": {
         "rarity_min": 4,
@@ -685,7 +770,8 @@
         "name": "Silvia",
         "job": "Spellblade",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/df/Unit-Silvia-6.png",
-        "unit_id": "100010104"
+        "unit_id": "100010104",
+        "limited": false
     },
     "100010203": {
         "rarity_min": 3,
@@ -693,7 +779,8 @@
         "name": "Kamui",
         "job": "Samurai",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6f/Unit-Kamui-5.png",
-        "unit_id": "100010203"
+        "unit_id": "100010203",
+        "limited": false
     },
     "100010303": {
         "rarity_min": 3,
@@ -701,7 +788,8 @@
         "name": "Yuri",
         "job": "Ninja",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4e/Unit-Yuri-5.png",
-        "unit_id": "100010303"
+        "unit_id": "100010303",
+        "limited": false
     },
     "100010604": {
         "rarity_min": 4,
@@ -709,7 +797,8 @@
         "name": "Chloe",
         "job": "Scholar",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4e/Unit-Chloe-6.png",
-        "unit_id": "100010604"
+        "unit_id": "100010604",
+        "limited": false
     },
     "100010703": {
         "rarity_min": 3,
@@ -717,7 +806,8 @@
         "name": "Amy",
         "job": "Archer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/a2/Unit-Amy-5.png",
-        "unit_id": "100010703"
+        "unit_id": "100010703",
+        "limited": false
     },
     "100010805": {
         "rarity_min": 5,
@@ -725,7 +815,8 @@
         "name": "Duke",
         "job": "Dragoon",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1b/Unit-Duke-.png",
-        "unit_id": "100010805"
+        "unit_id": "100010805",
+        "limited": false
     },
     "201000104": {
         "rarity_min": 4,
@@ -733,7 +824,8 @@
         "name": "Warrior of Light",
         "job": "Warrior of Light",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/5d/Unit-Warrior_of_Light-6.png",
-        "unit_id": "201000104"
+        "unit_id": "201000104",
+        "limited": false
     },
     "201000203": {
         "rarity_min": 3,
@@ -741,7 +833,8 @@
         "name": "Garland",
         "job": "Chaos Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/90/Unit-Garland-6.png",
-        "unit_id": "201000203"
+        "unit_id": "201000203",
+        "limited": false
     },
     "201000302": {
         "rarity_min": 2,
@@ -749,7 +842,8 @@
         "name": "Sarah",
         "job": "Songstress",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/e1/Unit-Sarah-3.png",
-        "unit_id": "201000302"
+        "unit_id": "201000302",
+        "limited": false
     },
     "202000103": {
         "rarity_min": 3,
@@ -757,7 +851,8 @@
         "name": "Firion",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/06/Unit-Firion-6.png",
-        "unit_id": "202000103"
+        "unit_id": "202000103",
+        "limited": false
     },
     "202000203": {
         "rarity_min": 3,
@@ -765,7 +860,8 @@
         "name": "Maria",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f3/Unit-Maria-5.png",
-        "unit_id": "202000203"
+        "unit_id": "202000203",
+        "limited": false
     },
     "202000303": {
         "rarity_min": 3,
@@ -773,7 +869,8 @@
         "name": "Guy",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3b/Unit-Guy-5.png",
-        "unit_id": "202000303"
+        "unit_id": "202000303",
+        "limited": false
     },
     "202000404": {
         "rarity_min": 4,
@@ -781,7 +878,8 @@
         "name": "Leon",
         "job": "Fell Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/ab/Unit-Leon-5.png",
-        "unit_id": "202000404"
+        "unit_id": "202000404",
+        "limited": false
     },
     "202000505": {
         "rarity_min": 5,
@@ -789,7 +887,8 @@
         "name": "Emperor",
         "job": "Emperor",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/eb/Unit-Emperor-6.png",
-        "unit_id": "202000505"
+        "unit_id": "202000505",
+        "limited": false
     },
     "202001402": {
         "rarity_min": 2,
@@ -797,7 +896,8 @@
         "name": "Paul",
         "job": "Bandit",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f6/Unit-Paul-3.png",
-        "unit_id": "202001402"
+        "unit_id": "202001402",
+        "limited": false
     },
     "203000105": {
         "rarity_min": 5,
@@ -805,7 +905,8 @@
         "name": "Onion Knight",
         "job": "Onion Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/62/Unit-Onion_Knight-6.png",
-        "unit_id": "203000105"
+        "unit_id": "203000105",
+        "limited": false
     },
     "203000205": {
         "rarity_min": 5,
@@ -813,7 +914,8 @@
         "name": "Luneth",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/ef/Unit-Luneth-6.png",
-        "unit_id": "203000205"
+        "unit_id": "203000205",
+        "limited": false
     },
     "203000303": {
         "rarity_min": 3,
@@ -821,7 +923,8 @@
         "name": "Arc",
         "job": "Black Wizard",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/ca/Unit-Arc-5.png",
-        "unit_id": "203000303"
+        "unit_id": "203000303",
+        "limited": false
     },
     "203000404": {
         "rarity_min": 4,
@@ -829,7 +932,8 @@
         "name": "Refia",
         "job": "White Wizard",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/ae/Unit-Refia-6.png",
-        "unit_id": "203000404"
+        "unit_id": "203000404",
+        "limited": false
     },
     "203000503": {
         "rarity_min": 3,
@@ -837,7 +941,8 @@
         "name": "Ingus",
         "job": "Red Wizard",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/7c/Unit-Ingus-5.png",
-        "unit_id": "203000503"
+        "unit_id": "203000503",
+        "limited": false
     },
     "203000704": {
         "rarity_min": 4,
@@ -845,7 +950,8 @@
         "name": "Desch",
         "job": "Swordsman",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/5c/Unit-Desch-6.png",
-        "unit_id": "203000704"
+        "unit_id": "203000704",
+        "limited": false
     },
     "203000803": {
         "rarity_min": 3,
@@ -853,7 +959,8 @@
         "name": "Cloud of Darkness",
         "job": "Ravager",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/7c/Unit-Cloud_of_Darkness-6.png",
-        "unit_id": "203000803"
+        "unit_id": "203000803",
+        "limited": false
     },
     "203000904": {
         "rarity_min": 4,
@@ -861,7 +968,8 @@
         "name": "Aria",
         "job": "Water Priestess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4b/Unit-Aria-6.png",
-        "unit_id": "203000904"
+        "unit_id": "203000904",
+        "limited": false
     },
     "203001003": {
         "rarity_min": 3,
@@ -869,7 +977,8 @@
         "name": "Sara",
         "job": "Princess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/85/Unit-Sara-5.png",
-        "unit_id": "203001003"
+        "unit_id": "203001003",
+        "limited": false
     },
     "204000103": {
         "rarity_min": 3,
@@ -877,7 +986,8 @@
         "name": "Cecil",
         "job": "Paladin",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b4/Unit-Cecil-6.png",
-        "unit_id": "204000103"
+        "unit_id": "204000103",
+        "limited": false
     },
     "204000115": {
         "rarity_min": 5,
@@ -885,7 +995,8 @@
         "name": "Dark Knight Cecil",
         "job": "Dark Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/17/Unit-Dark_Knight_Cecil-6.png",
-        "unit_id": "204000115"
+        "unit_id": "204000115",
+        "limited": false
     },
     "204000203": {
         "rarity_min": 3,
@@ -893,7 +1004,8 @@
         "name": "Kain",
         "job": "Dragoon",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/77/Unit-Kain-5.png",
-        "unit_id": "204000203"
+        "unit_id": "204000203",
+        "limited": false
     },
     "204000304": {
         "rarity_min": 4,
@@ -901,7 +1013,8 @@
         "name": "Rosa",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b9/Unit-Rosa-5.png",
-        "unit_id": "204000304"
+        "unit_id": "204000304",
+        "limited": false
     },
     "204000403": {
         "rarity_min": 3,
@@ -909,7 +1022,8 @@
         "name": "Rydia",
         "job": "Evoker",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/15/Unit-Rydia-5.png",
-        "unit_id": "204000403"
+        "unit_id": "204000403",
+        "limited": false
     },
     "204000503": {
         "rarity_min": 3,
@@ -917,7 +1031,8 @@
         "name": "Tellah",
         "job": "Sage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c0/Unit-Tellah-5.png",
-        "unit_id": "204000503"
+        "unit_id": "204000503",
+        "limited": false
     },
     "204001113": {
         "rarity_min": 3,
@@ -925,7 +1040,8 @@
         "name": "Edge",
         "job": "Ninja",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/af/Unit-Edge-5.png",
-        "unit_id": "204001113"
+        "unit_id": "204001113",
+        "limited": false
     },
     "204001302": {
         "rarity_min": 2,
@@ -933,7 +1049,8 @@
         "name": "King Giott",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c9/Unit-King_Giott-3.png",
-        "unit_id": "204001302"
+        "unit_id": "204001302",
+        "limited": false
     },
     "204001403": {
         "rarity_min": 3,
@@ -941,7 +1058,8 @@
         "name": "Golbez",
         "job": "Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f2/Unit-Golbez-5.png",
-        "unit_id": "204001403"
+        "unit_id": "204001403",
+        "limited": false
     },
     "205000103": {
         "rarity_min": 3,
@@ -949,7 +1067,8 @@
         "name": "Bartz",
         "job": "Adventurer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0c/Unit-Bartz-6.png",
-        "unit_id": "205000103"
+        "unit_id": "205000103",
+        "limited": false
     },
     "205000203": {
         "rarity_min": 3,
@@ -957,7 +1076,8 @@
         "name": "Lenna",
         "job": "Princess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/ba/Unit-Lenna-5.png",
-        "unit_id": "205000203"
+        "unit_id": "205000203",
+        "limited": false
     },
     "205000303": {
         "rarity_min": 3,
@@ -965,7 +1085,8 @@
         "name": "Galuf",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/05/Unit-Galuf-5.png",
-        "unit_id": "205000303"
+        "unit_id": "205000303",
+        "limited": false
     },
     "205000403": {
         "rarity_min": 3,
@@ -973,7 +1094,8 @@
         "name": "Faris",
         "job": "Pirate",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/25/Unit-Faris-5.png",
-        "unit_id": "205000403"
+        "unit_id": "205000403",
+        "limited": false
     },
     "205000503": {
         "rarity_min": 3,
@@ -981,7 +1103,8 @@
         "name": "Krile",
         "job": "Red Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6d/Unit-Krile-5.png",
-        "unit_id": "205000503"
+        "unit_id": "205000503",
+        "limited": false
     },
     "205000703": {
         "rarity_min": 3,
@@ -989,7 +1112,8 @@
         "name": "Exdeath",
         "job": "Dark Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/88/Unit-Exdeath-6.png",
-        "unit_id": "205000703"
+        "unit_id": "205000703",
+        "limited": false
     },
     "205000805": {
         "rarity_min": 5,
@@ -997,7 +1121,8 @@
         "name": "Gilgamesh",
         "job": "Guard Captain",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/22/Unit-Gilgamesh-6.png",
-        "unit_id": "205000805"
+        "unit_id": "205000805",
+        "limited": false
     },
     "206000103": {
         "rarity_min": 3,
@@ -1005,7 +1130,8 @@
         "name": "Terra",
         "job": "Magic Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/af/Unit-Terra-6.png",
-        "unit_id": "206000103"
+        "unit_id": "206000103",
+        "limited": false
     },
     "206000113": {
         "rarity_min": 3,
@@ -1013,7 +1139,8 @@
         "name": "Magitek Armor Terra",
         "job": "Imperial",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/df/Unit-Magitek_Armor_Terra-4.png",
-        "unit_id": "206000113"
+        "unit_id": "206000113",
+        "limited": true
     },
     "206000125": {
         "rarity_min": 5,
@@ -1021,7 +1148,8 @@
         "name": "Trance Terra",
         "job": "Magic Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c9/Unit-Trance_Terra-6.png",
-        "unit_id": "206000125"
+        "unit_id": "206000125",
+        "limited": false
     },
     "206000203": {
         "rarity_min": 3,
@@ -1029,7 +1157,8 @@
         "name": "Locke",
         "job": "Adventurer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3e/Unit-Locke-5.png",
-        "unit_id": "206000203"
+        "unit_id": "206000203",
+        "limited": false
     },
     "206000303": {
         "rarity_min": 3,
@@ -1037,7 +1166,8 @@
         "name": "Edgar",
         "job": "Machinist",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/a8/Unit-Edgar-4.png",
-        "unit_id": "206000303"
+        "unit_id": "206000303",
+        "limited": false
     },
     "206000403": {
         "rarity_min": 3,
@@ -1045,7 +1175,8 @@
         "name": "Sabin",
         "job": "Monk",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/e3/Unit-Sabin-4.png",
-        "unit_id": "206000403"
+        "unit_id": "206000403",
+        "limited": false
     },
     "206000503": {
         "rarity_min": 3,
@@ -1053,7 +1184,8 @@
         "name": "Shadow",
         "job": "Assassin",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4a/Unit-Shadow-4.png",
-        "unit_id": "206000503"
+        "unit_id": "206000503",
+        "limited": false
     },
     "206000603": {
         "rarity_min": 3,
@@ -1061,7 +1193,8 @@
         "name": "Cyan",
         "job": "Samurai",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6c/Unit-Cyan-4.png",
-        "unit_id": "206000603"
+        "unit_id": "206000603",
+        "limited": false
     },
     "206000703": {
         "rarity_min": 3,
@@ -1069,7 +1202,8 @@
         "name": "Celes",
         "job": "Rune Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/08/Unit-Celes-5.png",
-        "unit_id": "206000703"
+        "unit_id": "206000703",
+        "limited": false
     },
     "206000804": {
         "rarity_min": 4,
@@ -1077,7 +1211,8 @@
         "name": "Setzer",
         "job": "Gambler",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/58/Unit-Setzer-6.png",
-        "unit_id": "206000804"
+        "unit_id": "206000804",
+        "limited": false
     },
     "206001103": {
         "rarity_min": 3,
@@ -1085,7 +1220,8 @@
         "name": "Gau",
         "job": "Wildling",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/72/Unit-Gau-5.png",
-        "unit_id": "206001103"
+        "unit_id": "206001103",
+        "limited": false
     },
     "206001502": {
         "rarity_min": 2,
@@ -1093,7 +1229,8 @@
         "name": "Wedge",
         "job": "Imperial",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/34/Unit-Wedge-3.png",
-        "unit_id": "206001502"
+        "unit_id": "206001502",
+        "limited": false
     },
     "206001602": {
         "rarity_min": 2,
@@ -1101,7 +1238,8 @@
         "name": "Biggs",
         "job": "Imperial",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1e/Unit-Biggs-3.png",
-        "unit_id": "206001602"
+        "unit_id": "206001602",
+        "limited": false
     },
     "206001703": {
         "rarity_min": 3,
@@ -1109,7 +1247,8 @@
         "name": "Kefka",
         "job": "Archmage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d7/Unit-Kefka-6.png",
-        "unit_id": "206001703"
+        "unit_id": "206001703",
+        "limited": false
     },
     "206001803": {
         "rarity_min": 3,
@@ -1117,7 +1256,8 @@
         "name": "Leo",
         "job": "General",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/95/Unit-Leo-5.png",
-        "unit_id": "206001803"
+        "unit_id": "206001803",
+        "limited": false
     },
     "209000103": {
         "rarity_min": 3,
@@ -1125,7 +1265,8 @@
         "name": "Zidane",
         "job": "Bandit",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/de/Unit-Zidane-5.png",
-        "unit_id": "209000103"
+        "unit_id": "209000103",
+        "limited": false
     },
     "209000203": {
         "rarity_min": 3,
@@ -1133,7 +1274,8 @@
         "name": "Vivi",
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d3/Unit-Vivi-4.png",
-        "unit_id": "209000203"
+        "unit_id": "209000203",
+        "limited": false
     },
     "209000304": {
         "rarity_min": 4,
@@ -1141,7 +1283,8 @@
         "name": "Garnet",
         "job": "Princess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f3/Unit-Garnet-5.png",
-        "unit_id": "209000304"
+        "unit_id": "209000304",
+        "limited": false
     },
     "209000503": {
         "rarity_min": 3,
@@ -1149,7 +1292,8 @@
         "name": "Freya",
         "job": "Dragoon",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/fc/Unit-Freya-5.png",
-        "unit_id": "209000503"
+        "unit_id": "209000503",
+        "limited": false
     },
     "209000803": {
         "rarity_min": 3,
@@ -1157,7 +1301,8 @@
         "name": "Amarant",
         "job": "Monk",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/12/Unit-Amarant-5.png",
-        "unit_id": "209000803"
+        "unit_id": "209000803",
+        "limited": false
     },
     "209000903": {
         "rarity_min": 3,
@@ -1165,7 +1310,8 @@
         "name": "Lani",
         "job": "Ranger",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/ba/Unit-Lani-4.png",
-        "unit_id": "209000903"
+        "unit_id": "209000903",
+        "limited": false
     },
     "209001003": {
         "rarity_min": 3,
@@ -1173,7 +1319,8 @@
         "name": "Kuja",
         "job": "Reaper",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/47/Unit-Kuja-5.png",
-        "unit_id": "209001003"
+        "unit_id": "209001003",
+        "limited": false
     },
     "210000105": {
         "rarity_min": 5,
@@ -1181,7 +1328,8 @@
         "name": "Tidus",
         "job": "Guardian",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0d/Unit-Tidus-6.png",
-        "unit_id": "210000105"
+        "unit_id": "210000105",
+        "limited": false
     },
     "210000303": {
         "rarity_min": 3,
@@ -1189,7 +1337,8 @@
         "name": "Wakka",
         "job": "Guardian",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/68/Unit-Wakka-5.png",
-        "unit_id": "210000303"
+        "unit_id": "210000303",
+        "limited": false
     },
     "210000704": {
         "rarity_min": 4,
@@ -1197,7 +1346,8 @@
         "name": "Rikku",
         "job": "Guardian",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/ee/Unit-Rikku-6.png",
-        "unit_id": "210000704"
+        "unit_id": "210000704",
+        "limited": false
     },
     "211000103": {
         "rarity_min": 3,
@@ -1205,7 +1355,8 @@
         "name": "Shantotto",
         "job": "Professor",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/43/Unit-Shantotto-5.png",
-        "unit_id": "211000103"
+        "unit_id": "211000103",
+        "limited": false
     },
     "211000204": {
         "rarity_min": 4,
@@ -1213,7 +1364,8 @@
         "name": "Werei",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/87/Unit-Werei-6.png",
-        "unit_id": "211000204"
+        "unit_id": "211000204",
+        "limited": false
     },
     "211000303": {
         "rarity_min": 3,
@@ -1221,7 +1373,8 @@
         "name": "Kupipi",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9f/Unit-Kupipi-5.png",
-        "unit_id": "211000303"
+        "unit_id": "211000303",
+        "limited": false
     },
     "211000405": {
         "rarity_min": 5,
@@ -1229,7 +1382,8 @@
         "name": "Prishe",
         "job": "Monk",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/a2/Unit-Prishe-6.png",
-        "unit_id": "211000405"
+        "unit_id": "211000405",
+        "limited": false
     },
     "212000103": {
         "rarity_min": 3,
@@ -1237,7 +1391,8 @@
         "name": "Vaan",
         "job": "Warrior",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/10/Unit-Vaan-6.png",
-        "unit_id": "212000103"
+        "unit_id": "212000103",
+        "limited": false
     },
     "212000204": {
         "rarity_min": 4,
@@ -1245,7 +1400,8 @@
         "name": "Ashe",
         "job": "Princess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c4/Unit-Ashe-6.png",
-        "unit_id": "212000204"
+        "unit_id": "212000204",
+        "limited": false
     },
     "212000403": {
         "rarity_min": 3,
@@ -1253,7 +1409,8 @@
         "name": "Penelo",
         "job": "Dancer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f0/Unit-Penelo-5.png",
-        "unit_id": "212000403"
+        "unit_id": "212000403",
+        "limited": false
     },
     "212000603": {
         "rarity_min": 3,
@@ -1261,7 +1418,8 @@
         "name": "Fran",
         "job": "Sky Pirate",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1e/Unit-Fran-4.png",
-        "unit_id": "212000603"
+        "unit_id": "212000603",
+        "limited": false
     },
     "212000702": {
         "rarity_min": 2,
@@ -1269,7 +1427,8 @@
         "name": "Anastasis",
         "job": "High Priest",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/be/Unit-Anastasis-3.png",
-        "unit_id": "212000702"
+        "unit_id": "212000702",
+        "limited": false
     },
     "212001004": {
         "rarity_min": 4,
@@ -1277,63 +1436,71 @@
         "name": "Rasler",
         "job": "Prince",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/a2/Unit-Rasler-6.png",
-        "unit_id": "212001004"
+        "unit_id": "212001004",
+        "limited": false
     },
     "213000105": {
         "rarity_min": 5,
         "rarity_max": 6,
         "name": "Lightning",
-        "job": "l'Cie",
+        "job": "l\"Cie",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/25/Unit-Lightning-6.png",
-        "unit_id": "213000105"
+        "unit_id": "213000105",
+        "limited": false
     },
     "213000204": {
         "rarity_min": 4,
         "rarity_max": 6,
         "name": "Snow",
-        "job": "l'Cie",
+        "job": "l\"Cie",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d1/Unit-Snow-6.png",
-        "unit_id": "213000204"
+        "unit_id": "213000204",
+        "limited": false
     },
     "213000304": {
         "rarity_min": 4,
         "rarity_max": 5,
         "name": "Vanille",
-        "job": "l'Cie",
+        "job": "l\"Cie",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/5d/Unit-Vanille-5.png",
-        "unit_id": "213000304"
+        "unit_id": "213000304",
+        "limited": false
     },
     "213000403": {
         "rarity_min": 3,
         "rarity_max": 5,
         "name": "Sazh",
-        "job": "l'Cie",
+        "job": "l\"Cie",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/7c/Unit-Sazh-5.png",
-        "unit_id": "213000403"
+        "unit_id": "213000403",
+        "limited": false
     },
     "213000504": {
         "rarity_min": 4,
         "rarity_max": 5,
         "name": "Hope",
-        "job": "l'Cie",
+        "job": "l\"Cie",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b8/Unit-Hope-5.png",
-        "unit_id": "213000504"
+        "unit_id": "213000504",
+        "limited": false
     },
     "213000603": {
         "rarity_min": 3,
         "rarity_max": 5,
         "name": "Fang",
-        "job": "l'Cie",
+        "job": "l\"Cie",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9c/Unit-Fang-5.png",
-        "unit_id": "213000603"
+        "unit_id": "213000603",
+        "limited": false
     },
     "214000105": {
         "rarity_min": 5,
         "rarity_max": 6,
-        "name": "Y'shtola",
+        "name": "Y\"shtola",
         "job": "Scion",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/27/Unit-Y%27shtola-6.png",
-        "unit_id": "214000105"
+        "unit_id": "214000105",
+        "limited": true
     },
     "214000203": {
         "rarity_min": 3,
@@ -1341,7 +1508,8 @@
         "name": "Thancred",
         "job": "Scion",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/86/Unit-Thancred-5.png",
-        "unit_id": "214000203"
+        "unit_id": "214000203",
+        "limited": true
     },
     "214000304": {
         "rarity_min": 4,
@@ -1349,7 +1517,8 @@
         "name": "Minfilia",
         "job": "Scion",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/60/Unit-Minfilia-6.png",
-        "unit_id": "214000304"
+        "unit_id": "214000304",
+        "limited": true
     },
     "214000404": {
         "rarity_min": 4,
@@ -1357,7 +1526,8 @@
         "name": "Yda",
         "job": "Scion",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/8d/Unit-Yda-6.png",
-        "unit_id": "214000404"
+        "unit_id": "214000404",
+        "limited": true
     },
     "214000504": {
         "rarity_min": 4,
@@ -1365,7 +1535,8 @@
         "name": "Papalymo",
         "job": "Scion",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/18/Unit-Papalymo-6.png",
-        "unit_id": "214000504"
+        "unit_id": "214000504",
+        "limited": true
     },
     "215000105": {
         "rarity_min": 5,
@@ -1373,15 +1544,17 @@
         "name": "Noctis",
         "job": "Prince",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/ab/Unit-Noctis-6.png",
-        "unit_id": "215000105"
+        "unit_id": "215000105",
+        "limited": false
     },
     "215000205": {
         "rarity_min": 5,
         "rarity_max": 6,
         "name": "Gladiolus",
-        "job": "King's Shield",
+        "job": "King\"s Shield",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/67/Unit-Gladiolus-6.png",
-        "unit_id": "215000205"
+        "unit_id": "215000205",
+        "limited": false
     },
     "215000304": {
         "rarity_min": 4,
@@ -1389,15 +1562,17 @@
         "name": "Cor",
         "job": "Marshal",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6a/Unit-Cor-6.png",
-        "unit_id": "215000304"
+        "unit_id": "215000304",
+        "limited": false
     },
     "215000403": {
         "rarity_min": 3,
         "rarity_max": 5,
         "name": "Iris",
-        "job": "Prince's Friend",
+        "job": "Prince\"s Friend",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6a/Unit-Iris-5.png",
-        "unit_id": "215000403"
+        "unit_id": "215000403",
+        "limited": false
     },
     "215001105": {
         "rarity_min": 5,
@@ -1405,7 +1580,8 @@
         "name": "Nyx",
         "job": "Kingsglaive",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c6/Unit-Nyx-6.png",
-        "unit_id": "215001105"
+        "unit_id": "215001105",
+        "limited": false
     },
     "215001204": {
         "rarity_min": 4,
@@ -1413,7 +1589,8 @@
         "name": "Glauca",
         "job": "General",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/68/Unit-Glauca-6.png",
-        "unit_id": "215001204"
+        "unit_id": "215001204",
+        "limited": false
     },
     "215001304": {
         "rarity_min": 4,
@@ -1421,7 +1598,8 @@
         "name": "Crowe",
         "job": "Kingsglaive",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/44/Unit-Crowe-6.png",
-        "unit_id": "215001304"
+        "unit_id": "215001304",
+        "limited": false
     },
     "215001403": {
         "rarity_min": 3,
@@ -1429,7 +1607,8 @@
         "name": "Libertus",
         "job": "Kingsglaive",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0f/Unit-Libertus-5.png",
-        "unit_id": "215001403"
+        "unit_id": "215001403",
+        "limited": false
     },
     "253000105": {
         "rarity_min": 5,
@@ -1437,7 +1616,8 @@
         "name": "Ramza",
         "job": "Squire",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/5b/Unit-Ramza-6.png",
-        "unit_id": "253000105"
+        "unit_id": "253000105",
+        "limited": false
     },
     "253000115": {
         "rarity_min": 5,
@@ -1445,7 +1625,8 @@
         "name": "Mercenary Ramza",
         "job": "Squire",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/45/Unit-Mercenary_Ramza-6.png",
-        "unit_id": "253000115"
+        "unit_id": "253000115",
+        "limited": false
     },
     "253000205": {
         "rarity_min": 5,
@@ -1453,7 +1634,8 @@
         "name": "Delita",
         "job": "Squire",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/be/Unit-Delita-6.png",
-        "unit_id": "253000205"
+        "unit_id": "253000205",
+        "limited": false
     },
     "253000215": {
         "rarity_min": 5,
@@ -1461,7 +1643,8 @@
         "name": "Knight Delita",
         "job": "Holy Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/eb/Unit-Knight_Delita-6.png",
-        "unit_id": "253000215"
+        "unit_id": "253000215",
+        "limited": false
     },
     "253000304": {
         "rarity_min": 4,
@@ -1469,7 +1652,8 @@
         "name": "Agrias",
         "job": "Holy Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/ef/Unit-Agrias-6.png",
-        "unit_id": "253000304"
+        "unit_id": "253000304",
+        "limited": false
     },
     "253000403": {
         "rarity_min": 3,
@@ -1477,7 +1661,8 @@
         "name": "Alma",
         "job": "Cleric",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3f/Unit-Alma-5.png",
-        "unit_id": "253000403"
+        "unit_id": "253000403",
+        "limited": false
     },
     "253000504": {
         "rarity_min": 4,
@@ -1485,7 +1670,8 @@
         "name": "Gaffgarion",
         "job": "Fell Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/31/Unit-Gaffgarion-6.png",
-        "unit_id": "253000504"
+        "unit_id": "253000504",
+        "limited": false
     },
     "253000603": {
         "rarity_min": 3,
@@ -1493,7 +1679,8 @@
         "name": "Mustadio",
         "job": "Engineer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/fd/Unit-Mustadio-5.png",
-        "unit_id": "253000603"
+        "unit_id": "253000603",
+        "limited": false
     },
     "253000805": {
         "rarity_min": 5,
@@ -1501,7 +1688,8 @@
         "name": "Orlandeau",
         "job": "Holy Swordsman",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/df/Unit-Orlandeau-6.png",
-        "unit_id": "253000805"
+        "unit_id": "253000805",
+        "limited": false
     },
     "253000904": {
         "rarity_min": 4,
@@ -1509,7 +1697,8 @@
         "name": "Meliadoul",
         "job": "Divine Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/df/Unit-Meliadoul-6.png",
-        "unit_id": "253000904"
+        "unit_id": "253000904",
+        "limited": false
     },
     "253001103": {
         "rarity_min": 3,
@@ -1517,7 +1706,8 @@
         "name": "Ovelia",
         "job": "Princess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b9/Unit-Ovelia-5.png",
-        "unit_id": "253001103"
+        "unit_id": "253001103",
+        "limited": false
     },
     "253001204": {
         "rarity_min": 4,
@@ -1525,7 +1715,8 @@
         "name": "Orran",
         "job": "Astrologist",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3e/Unit-Orran-6.png",
-        "unit_id": "253001204"
+        "unit_id": "253001204",
+        "limited": false
     },
     "254000105": {
         "rarity_min": 5,
@@ -1533,7 +1724,8 @@
         "name": "Ace",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/2b/Unit-Ace-6.png",
-        "unit_id": "254000105"
+        "unit_id": "254000105",
+        "limited": false
     },
     "254000205": {
         "rarity_min": 5,
@@ -1541,7 +1733,8 @@
         "name": "Queen",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/76/Unit-Queen-6.png",
-        "unit_id": "254000205"
+        "unit_id": "254000205",
+        "limited": false
     },
     "254000304": {
         "rarity_min": 4,
@@ -1549,7 +1742,8 @@
         "name": "Nine",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c5/Unit-Nine-6.png",
-        "unit_id": "254000304"
+        "unit_id": "254000304",
+        "limited": false
     },
     "254000403": {
         "rarity_min": 3,
@@ -1557,7 +1751,8 @@
         "name": "Trey",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3a/Unit-Trey-5.png",
-        "unit_id": "254000403"
+        "unit_id": "254000403",
+        "limited": false
     },
     "254000503": {
         "rarity_min": 3,
@@ -1565,7 +1760,8 @@
         "name": "Cinque",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/e9/Unit-Cinque-5.png",
-        "unit_id": "254000503"
+        "unit_id": "254000503",
+        "limited": false
     },
     "254000603": {
         "rarity_min": 3,
@@ -1573,7 +1769,8 @@
         "name": "Jack",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0e/Unit-Jack-5.png",
-        "unit_id": "254000603"
+        "unit_id": "254000603",
+        "limited": false
     },
     "254000704": {
         "rarity_min": 4,
@@ -1581,7 +1778,8 @@
         "name": "Seven",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/72/Unit-Seven-6.png",
-        "unit_id": "254000704"
+        "unit_id": "254000704",
+        "limited": false
     },
     "254000905": {
         "rarity_min": 5,
@@ -1589,7 +1787,8 @@
         "name": "Rem",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b6/Unit-Rem-6.png",
-        "unit_id": "254000905"
+        "unit_id": "254000905",
+        "limited": false
     },
     "254001003": {
         "rarity_min": 3,
@@ -1597,7 +1796,8 @@
         "name": "Eight",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/65/Unit-Eight-5.png",
-        "unit_id": "254001003"
+        "unit_id": "254001003",
+        "limited": false
     },
     "254001204": {
         "rarity_min": 4,
@@ -1605,7 +1805,8 @@
         "name": "King",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/e/e5/Unit-King-6.png",
-        "unit_id": "254001204"
+        "unit_id": "254001204",
+        "limited": false
     },
     "254001403": {
         "rarity_min": 3,
@@ -1613,7 +1814,8 @@
         "name": "Sice",
         "job": "Agito Cadet",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/64/Unit-Sice-5.png",
-        "unit_id": "254001403"
+        "unit_id": "254001403",
+        "limited": false
     },
     "255000104": {
         "rarity_min": 4,
@@ -1621,7 +1823,8 @@
         "name": "Juggler",
         "job": "Juggler",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1d/Unit-Juggler-5.png",
-        "unit_id": "255000104"
+        "unit_id": "255000104",
+        "limited": true
     },
     "255000204": {
         "rarity_min": 4,
@@ -1629,7 +1832,8 @@
         "name": "Thief",
         "job": "Thief",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/de/Unit-Thief-5.png",
-        "unit_id": "255000204"
+        "unit_id": "255000204",
+        "limited": true
     },
     "255000304": {
         "rarity_min": 4,
@@ -1637,7 +1841,8 @@
         "name": "Fencer",
         "job": "Fencer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/02/Unit-Fencer-5.png",
-        "unit_id": "255000304"
+        "unit_id": "255000304",
+        "limited": true
     },
     "301000103": {
         "rarity_min": 3,
@@ -1645,7 +1850,8 @@
         "name": "Samatha",
         "job": "Lancer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9a/Unit-Samatha-4.png",
-        "unit_id": "301000103"
+        "unit_id": "301000103",
+        "limited": false
     },
     "302000104": {
         "rarity_min": 4,
@@ -1653,7 +1859,8 @@
         "name": "Tilith",
         "job": "Goddess",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/37/Unit-Tilith-6.png",
-        "unit_id": "302000104"
+        "unit_id": "302000104",
+        "limited": true
     },
     "302000204": {
         "rarity_min": 4,
@@ -1661,7 +1868,8 @@
         "name": "Karl",
         "job": "Summoner",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/5b/Unit-Karl-5.png",
-        "unit_id": "302000204"
+        "unit_id": "302000204",
+        "limited": true
     },
     "302000304": {
         "rarity_min": 4,
@@ -1669,7 +1877,8 @@
         "name": "Seria",
         "job": "Summoner",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/2a/Unit-Seria-5.png",
-        "unit_id": "302000304"
+        "unit_id": "302000304",
+        "limited": true
     },
     "302000405": {
         "rarity_min": 5,
@@ -1677,7 +1886,8 @@
         "name": "Vargas",
         "job": "Swordsman",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/49/Unit-Vargas-6.png",
-        "unit_id": "302000405"
+        "unit_id": "302000405",
+        "limited": true
     },
     "302000505": {
         "rarity_min": 5,
@@ -1685,7 +1895,8 @@
         "name": "Maxwell",
         "job": "God of Creation",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/7f/Unit-Maxwell-6.png",
-        "unit_id": "302000505"
+        "unit_id": "302000505",
+        "limited": true
     },
     "302000605": {
         "rarity_min": 5,
@@ -1693,7 +1904,8 @@
         "name": "Elza",
         "job": "Reaper",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/08/Unit-Elza-6.png",
-        "unit_id": "302000605"
+        "unit_id": "302000605",
+        "limited": true
     },
     "302000705": {
         "rarity_min": 5,
@@ -1701,7 +1913,8 @@
         "name": "White Knight Noel",
         "job": "White Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/0e/Unit-White_Knight_Noel-6.png",
-        "unit_id": "302000705"
+        "unit_id": "302000705",
+        "limited": true
     },
     "302000804": {
         "rarity_min": 4,
@@ -1709,7 +1922,8 @@
         "name": "Santa Roselia",
         "job": "White Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/98/Unit-Santa_Roselia-6.png",
-        "unit_id": "302000804"
+        "unit_id": "302000804",
+        "limited": true
     },
     "302000905": {
         "rarity_min": 5,
@@ -1717,7 +1931,8 @@
         "name": "Yun",
         "job": "Chocobo Rider",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c6/Unit-Yun-6.png",
-        "unit_id": "302000905"
+        "unit_id": "302000905",
+        "limited": true
     },
     "302001004": {
         "rarity_min": 4,
@@ -1725,7 +1940,8 @@
         "name": "Ling",
         "job": "Dancer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/65/Unit-Ling-6.png",
-        "unit_id": "302001004"
+        "unit_id": "302001004",
+        "limited": true
     },
     "302001104": {
         "rarity_min": 4,
@@ -1733,7 +1949,8 @@
         "name": "Cupid Artemios",
         "job": "Cupid Archer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f0/Unit-Cupid_Artemios-6.png",
-        "unit_id": "302001104"
+        "unit_id": "302001104",
+        "limited": true
     },
     "302001203": {
         "rarity_min": 3,
@@ -1741,7 +1958,8 @@
         "name": "Cupid Luna",
         "job": "Cupid Archer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/f/f8/Unit-Cupid_Luna-5.png",
-        "unit_id": "302001203"
+        "unit_id": "302001203",
+        "limited": true
     },
     "302001305": {
         "rarity_min": 5,
@@ -1749,7 +1967,8 @@
         "name": "Olive",
         "job": "Cannoneer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/88/Unit-Olive-6.png",
-        "unit_id": "302001305"
+        "unit_id": "302001305",
+        "limited": false
     },
     "302001405": {
         "rarity_min": 5,
@@ -1757,7 +1976,8 @@
         "name": "Fryevia",
         "job": "Spellblade",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/32/Unit-Fryevia-6.png",
-        "unit_id": "302001405"
+        "unit_id": "302001405",
+        "limited": false
     },
     "302001504": {
         "rarity_min": 4,
@@ -1765,7 +1985,8 @@
         "name": "Xon",
         "job": "Thief",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/88/Unit-Xon-6.png",
-        "unit_id": "302001504"
+        "unit_id": "302001504",
+        "limited": false
     },
     "302001603": {
         "rarity_min": 3,
@@ -1773,7 +1994,8 @@
         "name": "Aiden",
         "job": "Cleric",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/8f/Unit-Aiden-5.png",
-        "unit_id": "302001603"
+        "unit_id": "302001603",
+        "limited": false
     },
     "303000103": {
         "rarity_min": 3,
@@ -1781,7 +2003,8 @@
         "name": "Adel",
         "job": "Emperor",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b9/Unit-Adel-4.png",
-        "unit_id": "303000103"
+        "unit_id": "303000103",
+        "limited": false
     },
     "304000105": {
         "rarity_min": 5,
@@ -1789,7 +2012,8 @@
         "name": "Randi",
         "job": "Holy Sword Hero",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/33/Unit-Randi-6.png",
-        "unit_id": "304000105"
+        "unit_id": "304000105",
+        "limited": true
     },
     "304000204": {
         "rarity_min": 4,
@@ -1797,7 +2021,8 @@
         "name": "Primm",
         "job": "Young Girl",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d9/Unit-Primm-6.png",
-        "unit_id": "304000204"
+        "unit_id": "304000204",
+        "limited": true
     },
     "304000303": {
         "rarity_min": 3,
@@ -1805,7 +2030,8 @@
         "name": "Popoi",
         "job": "Sprite",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9f/Unit-Popoi-6.png",
-        "unit_id": "304000303"
+        "unit_id": "304000303",
+        "limited": true
     },
     "310000105": {
         "rarity_min": 5,
@@ -1813,7 +2039,8 @@
         "name": "2B",
         "job": "YoRHa Troop",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/4f/Unit-2B-6.png",
-        "unit_id": "310000105"
+        "unit_id": "310000105",
+        "limited": true
     },
     "310000204": {
         "rarity_min": 4,
@@ -1821,7 +2048,8 @@
         "name": "9S",
         "job": "YoRHa Troop",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/8a/Unit-9S-6.png",
-        "unit_id": "310000204"
+        "unit_id": "310000204",
+        "limited": true
     },
     "310000304": {
         "rarity_min": 4,
@@ -1829,7 +2057,8 @@
         "name": "Adam",
         "job": "Machine Lifeform",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/83/Unit-Adam-6.png",
-        "unit_id": "310000304"
+        "unit_id": "310000304",
+        "limited": true
     },
     "310000403": {
         "rarity_min": 3,
@@ -1837,15 +2066,8 @@
         "name": "21O",
         "job": "YoRHa Troop",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c9/Unit-21O-5.png",
-        "unit_id": "310000403"
-    },
-    "312000404": {
-        "rarity_min": 4,
-        "rarity_max": 6,
-        "name": "Charlotte",
-        "job": "Cleric",
-        "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/78/Unit-Charlotte-6.png",
-        "unit_id": "312000404"
+        "unit_id": "310000403",
+        "limited": true
     },
     "401000104": {
         "rarity_min": 4,
@@ -1853,7 +2075,8 @@
         "name": "Dangerous Ariana",
         "job": "Singer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/60/Unit-Dangerous_Ariana-6.png",
-        "unit_id": "401000104"
+        "unit_id": "401000104",
+        "limited": true
     },
     "401000205": {
         "rarity_min": 5,
@@ -1861,7 +2084,8 @@
         "name": "Demon Rain",
         "job": "Demon Knight",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/30/Unit-Demon_Rain-6.png",
-        "unit_id": "401000205"
+        "unit_id": "401000205",
+        "limited": true
     },
     "401000305": {
         "rarity_min": 5,
@@ -1869,7 +2093,8 @@
         "name": "Dracu Lasswell",
         "job": "Vampire",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/c/c3/Unit-Dracu_Lasswell-6.png",
-        "unit_id": "401000305"
+        "unit_id": "401000305",
+        "limited": true
     },
     "401000404": {
         "rarity_min": 4,
@@ -1877,7 +2102,8 @@
         "name": "White Witch Fina",
         "job": "White Witch",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/07/Unit-White_Witch_Fina-6.png",
-        "unit_id": "401000404"
+        "unit_id": "401000404",
+        "limited": true
     },
     "401000503": {
         "rarity_min": 3,
@@ -1885,7 +2111,8 @@
         "name": "Black Cat Lid",
         "job": "Tech Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/4/44/Unit-Black_Cat_Lid-6.png",
-        "unit_id": "401000503"
+        "unit_id": "401000503",
+        "limited": true
     },
     "401000604": {
         "rarity_min": 4,
@@ -1893,7 +2120,8 @@
         "name": "Artisan Lid",
         "job": "Artisan",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/2b/Unit-Artisan_Lid-5.png",
-        "unit_id": "401000604"
+        "unit_id": "401000604",
+        "limited": true
     },
     "401000704": {
         "rarity_min": 4,
@@ -1901,7 +2129,8 @@
         "name": "Swordsman Lasswell",
         "job": "Swordsman",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/93/Unit-Swordsman_Lasswell-5.png",
-        "unit_id": "401000704"
+        "unit_id": "401000704",
+        "limited": true
     },
     "401000804": {
         "rarity_min": 4,
@@ -1909,7 +2138,8 @@
         "name": "Cheerleader Fina",
         "job": "Cheerleader",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/1c/Unit-Cheerleader_Fina-5.png",
-        "unit_id": "401000804"
+        "unit_id": "401000804",
+        "limited": true
     },
     "401000904": {
         "rarity_min": 4,
@@ -1917,7 +2147,8 @@
         "name": "Maiden Sakura",
         "job": "Maiden",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/64/Unit-Maiden_Sakura-5.png",
-        "unit_id": "401000904"
+        "unit_id": "401000904",
+        "limited": true
     },
     "401001105": {
         "rarity_min": 5,
@@ -1925,7 +2156,8 @@
         "name": "Zargabaath",
         "job": "Archadian Judge",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/2f/Unit-Zargabaath-6.png",
-        "unit_id": "401001105"
+        "unit_id": "401001105",
+        "limited": false
     },
     "401001205": {
         "rarity_min": 5,
@@ -1933,7 +2165,8 @@
         "name": "A2",
         "job": "Ex-YoRHa Android",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/62/Unit-A2-6.png",
-        "unit_id": "401001205"
+        "unit_id": "401001205",
+        "limited": true
     },
     "401001304": {
         "rarity_min": 4,
@@ -1941,7 +2174,8 @@
         "name": "Eve",
         "job": "Machine Lifeform",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/39/Unit-Eve-6.png",
-        "unit_id": "401001304"
+        "unit_id": "401001304",
+        "limited": true
     },
     "401001405": {
         "rarity_min": 5,
@@ -1949,7 +2183,8 @@
         "name": "Barbariccia",
         "job": "Elemental Archfiend",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/7/7a/Unit-Barbariccia-6.png",
-        "unit_id": "401001405"
+        "unit_id": "401001405",
+        "limited": false
     },
     "401001504": {
         "rarity_min": 4,
@@ -1957,7 +2192,8 @@
         "name": "Rubicante",
         "job": "Elemental Archfiend",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d4/Unit-Rubicante-6.png",
-        "unit_id": "401001504"
+        "unit_id": "401001504",
+        "limited": false
     },
     "401001604": {
         "rarity_min": 4,
@@ -1965,7 +2201,8 @@
         "name": "Cagnazzo",
         "job": "Elemental Archfiend",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/29/Unit-Cagnazzo-6.png",
-        "unit_id": "401001604"
+        "unit_id": "401001604",
+        "limited": false
     },
     "401001705": {
         "rarity_min": 5,
@@ -1973,7 +2210,8 @@
         "name": "Reberta",
         "job": "Dragoon",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b0/Unit-Reberta-6.png",
-        "unit_id": "401001705"
+        "unit_id": "401001705",
+        "limited": false
     },
     "401001804": {
         "rarity_min": 4,
@@ -1981,7 +2219,8 @@
         "name": "Zyrus",
         "job": "Black Mage",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/5d/Unit-Zyrus-6.png",
-        "unit_id": "401001804"
+        "unit_id": "401001804",
+        "limited": false
     },
     "401001903": {
         "rarity_min": 3,
@@ -1989,7 +2228,8 @@
         "name": "Scarmiglione",
         "job": "Elemental Archfiend",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/5/53/Unit-Scarmiglione-5.png",
-        "unit_id": "401001903"
+        "unit_id": "401001903",
+        "limited": false
     },
     "401002005": {
         "rarity_min": 5,
@@ -1997,7 +2237,8 @@
         "name": "Grim Lord Sakura",
         "job": "Grim Lord",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/13/Unit-Grim_Lord_Sakura-6.png",
-        "unit_id": "401002005"
+        "unit_id": "401002005",
+        "limited": true
     },
     "401002104": {
         "rarity_min": 4,
@@ -2005,7 +2246,8 @@
         "name": "Illusionist Nichol",
         "job": "Illusionist",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6d/Unit-Illusionist_Nichol-6.png",
-        "unit_id": "401002104"
+        "unit_id": "401002104",
+        "limited": true
     },
     "401002204": {
         "rarity_min": 4,
@@ -2013,7 +2255,8 @@
         "name": "Pirate Jake",
         "job": "Pirate",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b1/Unit-Pirate_Jake-6.png",
-        "unit_id": "401002204"
+        "unit_id": "401002204",
+        "limited": true
     },
     "401002304": {
         "rarity_min": 4,
@@ -2021,7 +2264,8 @@
         "name": "Chic Ariana",
         "job": "Singer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/64/Unit-Chic_Ariana-6.png",
-        "unit_id": "401002304"
+        "unit_id": "401002304",
+        "limited": true
     },
     "401002405": {
         "rarity_min": 5,
@@ -2029,7 +2273,8 @@
         "name": "Charming Kitty Ariana",
         "job": "Singer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/a/a1/Unit-Charming_Kitty_Ariana-6.png",
-        "unit_id": "401002405"
+        "unit_id": "401002405",
+        "limited": true
     },
     "401002504": {
         "rarity_min": 4,
@@ -2037,6 +2282,7 @@
         "name": "Sportive Ariana",
         "job": "Singer",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/14/Unit-Sportive_Ariana-6.png",
-        "unit_id": "401002504"
+        "unit_id": "401002504",
+        "limited": true
     }
 }

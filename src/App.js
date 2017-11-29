@@ -32,14 +32,14 @@ class App extends Component {
     login() {
         auth.signInWithPopup(provider) 
             .then(({ user }) => {
-                this.setState({ user });
+                this.setState({ user })
             })
     }
     
     logout() {
         auth.signOut()
             .then(() => {
-                this.setState({ user: null });
+                this.setState({ user: null })
             })
     }
 
@@ -47,7 +47,7 @@ class App extends Component {
         return ( 
             <div>
                 <Header user={this.state.user} login={this.login} logout={this.logout} />
-                <BrowserRouter>
+                <BrowserRouter basename='/'>
                     <Switch>
                         <Route exact path='/' component={Units} user={this.state.user} />
                         <Route path='/player/:pid' component={Player} />
