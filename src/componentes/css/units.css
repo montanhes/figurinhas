@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 150px;
     flex-flow: row wrap;
 }
 .unit {
@@ -26,6 +25,18 @@
     opacity: 0.4;
     filter: grayscale(100%);
 }
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    width: 250px;
+    padding: 15px;
+    background-color: #9c27b0;
+}
+.playerLink {
+    word-wrap: break-word;
+}
 h3 {
     width: 100%;
     display: flex;
@@ -38,6 +49,6 @@ h3 {
 }
 .fa {
     color: #efcc0f;
-    font-size: 2em;
+    font-size: 2em !important;
     margin: 0px 3px;
 }

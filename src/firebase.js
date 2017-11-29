@@ -7,8 +7,8 @@ const config = {
     storageBucket: "pontual-9763c.appspot.com",
     messagingSenderId: "388856072581"
 };
-firebase.initializeApp(config);
+firebase.initializeApp(config)
 
-export const provider = new firebase.auth.GoogleAuthProvider();
-export const auth = firebase.auth();
-export default firebase;
+export const provider = new firebase.auth.GoogleAuthProvider()
+export const auth = firebase.auth()
+export default firebase
