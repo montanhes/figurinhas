@@ -1,15 +1,32 @@
 import React, { Component } from 'react'
-import './css/units.css'
 import lodash from 'lodash'
 import unitsObj from '../units.json'
 // eslint-disable-next-line
 import firebase, { auth, provider } from '../firebase'
-import 'font-awesome/css/font-awesome.min.css'
 import PropTypes from 'prop-types'
 import { withStyles } from 'material-ui/styles'
-import Paper from 'material-ui/Paper'
-import Typography from 'material-ui/Typography'
 import { Link } from 'react-router-dom'
+import AppBar from 'material-ui/AppBar'
+import SwipeableViews from 'react-swipeable-views'
+import Tabs, { Tab } from 'material-ui/Tabs'
+import StarIcon from 'material-ui-icons/Star'
+import About from './about'
+import User from './user'
+import './css/units.css'
+import 'font-awesome/css/font-awesome.min.css'
+
+function TabContainer({ children, dir }) {
+    return (
+        <div dir={dir} style={{ padding: 8 * 3 }}>
+            {children}
+        </div>
+    );
+}
+
+TabContainer.propTypes = {
+    children: PropTypes.node.isRequired,
+    dir: PropTypes.string.isRequired,
+};
 
 const styles = theme => ({
     root: theme.mixins.gutters({
@@ -17,10 +34,12 @@ const styles = theme => ({
         paddingBottom: 16,
         marginTop: theme.spacing.unit * 3,
     }),
+    root: {
+        backgroundColor: theme.palette.background.paper,
+    },
 })
 
 class Units extends Component {
-
     constructor(props) {
         super(props)
         this.state = { 
@@ -30,6 +49,18 @@ class Units extends Component {
         }
         this.addUnitToMyList = this.addUnitToMyList.bind(this)
     }
+
+    handleChange = (event, value) => {
+        this.setState({ value });
+    };
+    
+    handleChangeIndex = index => {
+        this.setState({ value: index });
+    };
+
+    state = {
+        value: 0,
+    };
 
     componentWillMount() {
         this.setState({
@@ -94,60 +125,51 @@ class Units extends Component {
     }
 
     render() {
-        const { classes } = this.props
+        const { classes, theme } = this.props
         return (
             <div className='main'>
                 <aside className='sidebar'>
                     {this.state.user ? 
-                    <Paper className={classes.root} elevation={4}>
-                        <Typography type="headline" component="h6">
-                            Share your profile:
-                        </Typography>
-                        <p>You can share your units collection using the link below.</p>
-                        <Typography type="body1" component="p">
-                            <Link className='playerLink' to={'player/'+this.state.user.uid}>https://oakz.org/#/player/{this.state.user.uid}</Link>
-                        </Typography>
-                    </Paper> : '' }
-                    <Paper className={classes.root} elevation={4}>
-                        <Typography type="headline" component="h6">
-                            Find me:
-                        </Typography>
-                        <p>Please, report me about problems and send me suggestions.</p>
-                        <Typography type="body1" component="p">
-                            <a href='https://www.reddit.com/user/ramonoak/'><i className="fa fa-reddit" aria-hidden="true"></i>/u/ramonoak/</a>
-                        </Typography>
-                        <div>
-                            <p>If you like this app you can help me buy a beer! =)</p>
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick" />
-                                <input type="hidden" name="hosted_button_id" value="EB4BV3JDW59HW" />
-                                <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!" />
-                                <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1" />
-                            </form>
-                        </div>
-                    </Paper>
+                    <User userInfo={this.state.user} /> : '' }
+                    <About />
                 </aside>
                 <div className='list'>
-                    <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                    <div className='unitList'>
-                        {this.renderUnitsList(this.state.unitsListed, 5)}
-                    </div>
-                    <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                    <div className='unitList'>
-                        {this.renderUnitsList(this.state.unitsListed, 4)}
-                    </div>
-                    <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                    <div className='unitList'>
-                        {this.renderUnitsList(this.state.unitsListed, 3)}
-                    </div>
-                    <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                    <div className='unitList'>
-                        {this.renderUnitsList(this.state.unitsListed, 2)}
-                    </div>
-                    <h3><i className="fa fa-star" aria-hidden="false"></i></h3>
-                    <div className='unitList'>
-                        {this.renderUnitsList(this.state.unitsListed, 1)}
-                    </div>
+                    <AppBar position="static" color="default">
+                        <Tabs value={this.state.value} onChange={this.handleChange} indicatorColor="primary" textColor="primary" fullWidth>
+                            <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon /></div>} />
+                            <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /><StarIcon /></div>} />
+                            <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /></div>} />
+                            <Tab icon={<div><StarIcon /><StarIcon /></div>} />
+                            <Tab icon={<StarIcon />} />
+                        </Tabs>
+                    </AppBar>
+                    <SwipeableViews axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'} index={this.state.value} onChangeIndex={this.handleChangeIndex}>
+                        <TabContainer dir={theme.direction}>
+                            <div className='unitList'>
+                                {this.renderUnitsList(this.state.unitsListed, 5)}
+                            </div>
+                        </TabContainer>
+                        <TabContainer dir={theme.direction}>
+                            <div className='unitList'>
+                                {this.renderUnitsList(this.state.unitsListed, 4)}
+                            </div>
+                        </TabContainer>
+                        <TabContainer dir={theme.direction}>
+                            <div className='unitList'>
+                                {this.renderUnitsList(this.state.unitsListed, 3)}
+                            </div>
+                        </TabContainer>
+                        <TabContainer dir={theme.direction}>
+                            <div className='unitList'>
+                                {this.renderUnitsList(this.state.unitsListed, 2)}
+                            </div>
+                        </TabContainer>
+                        <TabContainer dir={theme.direction}>
+                            <div className='unitList'>
+                                {this.renderUnitsList(this.state.unitsListed, 1)}
+                            </div>
+                        </TabContainer>
+                    </SwipeableViews>
                 </div>
             </div>
         )
@@ -156,6 +178,7 @@ class Units extends Component {
 
 Units.propTypes = {
     classes: PropTypes.object.isRequired,
+    theme: PropTypes.object.isRequired,
 }
 
-export default withStyles(styles)(Units)
+export default withStyles(styles, { withTheme: true })(Units)

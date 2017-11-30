@@ -19,7 +19,6 @@ const styles = theme => ({
 })
 
 class MenuAppBar extends PureComponent {
-
     constructor(props) {
         super(props)
     }
@@ -32,7 +31,7 @@ class MenuAppBar extends PureComponent {
                     <Toolbar>
                         <Typography type="title" color="inherit" className={classes.flex}>FFBE Unit Collection</Typography>
                             <div className='login-box'>
-                                {this.props.user ? <div className='img-box'><img className='user-img' src={this.props.user.photoURL} alt={this.props.user.displayName}/></div> : <div></div> }
+                                {this.props.user ? <div className='img-box'><img className='user-img' src={this.props.user.photoURL} alt={this.props.user.displayName}/></div> : <div></div>}
                                 {this.props.user ?
                                     <Button color="contrast" onClick={this.props.logout}>Logout</Button>
                                     :

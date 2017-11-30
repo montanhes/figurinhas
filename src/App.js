@@ -8,17 +8,14 @@ import 'typeface-roboto'
 import { Switch, Route, HashRouter } from 'react-router-dom' 
 import Player from './componentes/player'
 
-
 class App extends Component {
-
     constructor(props) {
         super(props)
-        this.login = this.login.bind(this)
-        this.logout = this.logout.bind(this)
-
         this.state = {
             user: null,
         }
+        this.login = this.login.bind(this)
+        this.logout = this.logout.bind(this)
     }
 
     componentDidMount() {
@@ -35,7 +32,7 @@ class App extends Component {
                 this.setState({ user })
             })
     }
-    
+
     logout() {
         auth.signOut()
             .then(() => {
