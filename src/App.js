@@ -5,9 +5,9 @@ import Header from './componentes/header'
 import Units from './componentes/units'
 import Footer from './componentes/footer'
 import 'typeface-roboto'
-import { BrowserRouter } from 'react-router-dom'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, HashRouter } from 'react-router-dom' 
 import Player from './componentes/player'
+
 
 class App extends Component {
 
@@ -47,12 +47,12 @@ class App extends Component {
         return ( 
             <div>
                 <Header user={this.state.user} login={this.login} logout={this.logout} />
-                <BrowserRouter basename='/'>
+                <HashRouter basename='/'>
                     <Switch>
                         <Route exact path='/' component={Units} user={this.state.user} />
                         <Route path='/player/:pid' component={Player} />
                     </Switch>
-                </BrowserRouter>
+                </HashRouter>
                 <Footer />
             </div>
         )

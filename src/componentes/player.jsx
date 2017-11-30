@@ -16,9 +16,9 @@ class Units extends Component {
         }
     }
 
-    componentWillMount() {
+    componentWillMount(props) {
         this.setState({
-            unitsListed: lodash.values(unitsObj)
+            unitsListed: lodash.values(unitsObj),
         })
     }
 

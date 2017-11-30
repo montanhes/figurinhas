@@ -9,6 +9,7 @@ import PropTypes from 'prop-types'
 import { withStyles } from 'material-ui/styles'
 import Paper from 'material-ui/Paper'
 import Typography from 'material-ui/Typography'
+import { Link } from 'react-router-dom'
 
 const styles = theme => ({
     root: theme.mixins.gutters({
@@ -104,7 +105,7 @@ class Units extends Component {
                         </Typography>
                         <p>You can share your units collection using the link below.</p>
                         <Typography type="body1" component="p">
-                            <a className='playerLink' href={'https://oakz.org/player/'+this.state.user.uid}>https://oakz.org/player/{this.state.user.uid}</a>
+                            <Link className='playerLink' to={'player/'+this.state.user.uid}>https://oakz.org/#/player/{this.state.user.uid}</Link>
                         </Typography>
                     </Paper> : '' }
                     <Paper className={classes.root} elevation={4}>
