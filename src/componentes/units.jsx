@@ -38,10 +38,11 @@ const styles = theme => ({
 class Units extends Component {
     constructor(props) {
         super(props)
-        this.state = { 
-            unitsListed: [],
+        this.state = {
+            unitsListed: Object.values(unitsObj).sort((a, b) => a.name.localeCompare(b.name)),
             user: null,
             userUnitList: [],
+            value: 0,
         }
         this.addUnitToMyList = this.addUnitToMyList.bind(this)
     }
@@ -49,20 +50,10 @@ class Units extends Component {
     handleChange = (event, value) => {
         this.setState({ value });
     };
-    
+
     handleChangeIndex = index => {
         this.setState({ value: index });
     };
-
-    state = {
-        value: 0,
-    };
-
-    componentWillMount() {
-        this.setState({
-            unitsListed: lodash.values(unitsObj)
-        })
-    }
 
     componentDidMount() {
         auth.onAuthStateChanged((user) => {
