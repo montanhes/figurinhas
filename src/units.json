@@ -2284,5 +2284,50 @@
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/1/14/Unit-Sportive_Ariana-6.png",
         "unit_id": "401002504",
         "limited": true
+    },
+    "100010805": {
+        "rarity_min": 5,
+        "rarity_max": 6,
+        "name": "Duke",
+        "job": "Dragoon",
+        "img" : "https://exvius.gamepedia.com/media/exvius.gamepedia.com/d/d0/Unit-Duke-6.png",
+        "unit_id": "100010805",
+        "limited": false
+    },
+    "100011004": {
+        "rarity_min": 4,
+        "rarity_max": 6,
+        "name": "Mystea",
+        "job": "Barrier Mage",
+        "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/2/29/Unit-Mystea-6.png",
+        "unit_id": "100011004",
+        "limited": false
+    },
+    "100011203": {
+        "rarity_min": 3,
+        "rarity_max": 5,
+        "name": "Ryunan",
+        "job": "Dragoon",
+        "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/3/3a/Unit-Ryunan-5.png",
+        "unit_id": "100011203",
+        "limited": false
+    },
+    "100011103": {
+        "rarity_min": 3,
+        "rarity_max": 5,
+        "name": "Charie",
+        "job": "Dancer",
+        "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/0/05/Unit-Charie-5.png",
+        "unit_id": "100011103",
+        "limited": false
+    },
+    "100010904": {
+        "rarity_min": 4,
+        "rarity_max": 6,
+        "name": "Olif",
+        "job": "Green Mage",
+        "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/6/6d/Unit-Olif-4.png",
+        "unit_id": "100010904",
+        "limited": false
     }
 }

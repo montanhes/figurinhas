@@ -1,13 +1,39 @@
 import React, { Component } from 'react'
-import './css/units.css'
 import lodash from 'lodash'
 import unitsObj from '../units.json'
 // eslint-disable-next-line
 import firebase, { auth, provider } from '../firebase'
+import PropTypes from 'prop-types'
+import { withStyles } from 'material-ui/styles'
+import AppBar from 'material-ui/AppBar'
+import SwipeableViews from 'react-swipeable-views'
+import Tabs, { Tab } from 'material-ui/Tabs'
+import StarIcon from 'material-ui-icons/Star'
+import './css/units.css'
 import 'font-awesome/css/font-awesome.min.css'
 
-class Units extends Component {
+function TabContainer({ children, dir }) {
+    return (
+        <div dir={dir} style={{ padding: 8 * 3 }}>
+            {children}
+        </div>
+    )
+}
 
+TabContainer.propTypes = {
+    children: PropTypes.node.isRequired,
+    dir: PropTypes.string.isRequired,
+}
+
+const styles = theme => ({
+    root: theme.mixins.gutters({
+        paddingTop: 16,
+        paddingBottom: 16,
+        marginTop: theme.spacing.unit * 3,
+    }),
+})
+
+class Player extends Component {
     constructor(props) {
         super(props)
         this.state = { 
@@ -15,6 +41,18 @@ class Units extends Component {
             user: props.match.params.pid,
         }
     }
+
+    handleChange = (event, value) => {
+        this.setState({ value });
+    };
+    
+    handleChangeIndex = index => {
+        this.setState({ value: index });
+    };
+
+    state = {
+        value: 0,
+    };
 
     componentWillMount(props) {
         this.setState({
@@ -52,31 +90,52 @@ class Units extends Component {
     }
 
     render() {
+        const { theme } = this.props
         return (
             <div className='list'>
-                <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                <div className='unitList'>
-                    {this.renderUnitsList(this.state.unitsListed, 5)}
-                </div>
-                <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                <div className='unitList'>
-                    {this.renderUnitsList(this.state.unitsListed, 4)}
-                </div>
-                <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                <div className='unitList'>
-                    {this.renderUnitsList(this.state.unitsListed, 3)}
-                </div>
-                <h3><i className="fa fa-star" aria-hidden="false"></i><i className="fa fa-star" aria-hidden="false"></i></h3>
-                <div className='unitList'>
-                    {this.renderUnitsList(this.state.unitsListed, 2)}
-                </div>
-                <h3><i className="fa fa-star" aria-hidden="false"></i></h3>
-                <div className='unitList'>
-                    {this.renderUnitsList(this.state.unitsListed, 1)}
-                </div>
+                <AppBar position="static" color="default">
+                    <Tabs value={this.state.value} onChange={this.handleChange} indicatorColor="primary" textColor="primary" fullWidth>
+                        <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon /></div>} />
+                        <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /><StarIcon /></div>} />
+                        <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /></div>} />
+                        <Tab icon={<div><StarIcon /><StarIcon /></div>} />
+                        <Tab icon={<StarIcon />} />
+                    </Tabs>
+                </AppBar>
+                <SwipeableViews axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'} index={this.state.value} onChangeIndex={this.handleChangeIndex}>
+                    <TabContainer dir={theme.direction}>
+                        <div className='unitList'>
+                            {this.renderUnitsList(this.state.unitsListed, 5)}
+                        </div>
+                    </TabContainer>
+                    <TabContainer dir={theme.direction}>
+                        <div className='unitList'>
+                            {this.renderUnitsList(this.state.unitsListed, 4)}
+                        </div>
+                    </TabContainer>
+                    <TabContainer dir={theme.direction}>
+                        <div className='unitList'>
+                            {this.renderUnitsList(this.state.unitsListed, 3)}
+                        </div>
+                    </TabContainer>
+                    <TabContainer dir={theme.direction}>
+                        <div className='unitList'>
+                            {this.renderUnitsList(this.state.unitsListed, 2)}
+                        </div>
+                    </TabContainer>
+                    <TabContainer dir={theme.direction}>
+                        <div className='unitList'>
+                            {this.renderUnitsList(this.state.unitsListed, 1)}
+                        </div>
+                    </TabContainer>
+                </SwipeableViews>
             </div>
         )
     }
 }
 
-export default Units
+Player.propTypes = {
+    theme: PropTypes.object.isRequired,
+}
+
+export default withStyles(styles, { withTheme: true })(Player)

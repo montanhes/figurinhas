@@ -5,7 +5,6 @@ import unitsObj from '../units.json'
 import firebase, { auth, provider } from '../firebase'
 import PropTypes from 'prop-types'
 import { withStyles } from 'material-ui/styles'
-import { Link } from 'react-router-dom'
 import AppBar from 'material-ui/AppBar'
 import SwipeableViews from 'react-swipeable-views'
 import Tabs, { Tab } from 'material-ui/Tabs'
@@ -20,13 +19,13 @@ function TabContainer({ children, dir }) {
         <div dir={dir} style={{ padding: 8 * 3 }}>
             {children}
         </div>
-    );
+    )
 }
 
 TabContainer.propTypes = {
     children: PropTypes.node.isRequired,
     dir: PropTypes.string.isRequired,
-};
+}
 
 const styles = theme => ({
     root: theme.mixins.gutters({
@@ -34,9 +33,6 @@ const styles = theme => ({
         paddingBottom: 16,
         marginTop: theme.spacing.unit * 3,
     }),
-    root: {
-        backgroundColor: theme.palette.background.paper,
-    },
 })
 
 class Units extends Component {
@@ -85,7 +81,10 @@ class Units extends Component {
                             }
                         }
                     }
-                    this.setState({ unitsListed: tempJsonList})
+                    setTimeout(() => {
+                        this.setState({ unitsListed: tempJsonList})    
+                    }, 6000);
+                    
                 })
             }
         })
@@ -125,7 +124,7 @@ class Units extends Component {
     }
 
     render() {
-        const { classes, theme } = this.props
+        const { theme } = this.props
         return (
             <div className='main'>
                 <aside className='sidebar'>
@@ -177,7 +176,6 @@ class Units extends Component {
 }
 
 Units.propTypes = {
-    classes: PropTypes.object.isRequired,
     theme: PropTypes.object.isRequired,
 }
 

@@ -52,3 +52,6 @@ h3 {
     font-size: 2em !important;
     margin: 0px 3px;
 }
+.MuiTabs-flexContainer-90, .MuiTabs-flexContainer-91 {
+    justify-content: center;
+}
