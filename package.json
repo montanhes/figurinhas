@@ -1,6 +1,18 @@
 {
   "name": "figurinhas",
   "version": "0.1.0",
+  "author": {
+    "name" : "Ramon Carvalho",
+    "email" : "",
+    "url" : ""
+  },
+  "contributors": [
+    {
+      "name" : "Sergio Moura",
+      "email" : "sergio@moura.ca",
+      "url" : "https://github.com/lsmoura"
+    }
+  ],
   "private": true,
   "dependencies": {
     "firebase": "^4.6.2",
