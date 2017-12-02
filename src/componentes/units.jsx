@@ -109,7 +109,7 @@ class Units extends Component {
                 <a href='' onClick={(evt) => this.addUnitToMyList(evt, unit.unit_id)}>
                     <img id={unit.unit_id} src={unit.img} alt={unit.name} className={unit.own ? 'unit-img' : 'unit-img unit-hide'} data-own={unit.own === true ? true : false} />
                 </a>
-                <div>{unit.name}</div>
+                <div><a href={'https://exvius.gamepedia.com/'+unit.name.replace(/\s/g, "_")}>{unit.name}</a></div>
             </div>
         )   )
     }

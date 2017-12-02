@@ -56,7 +56,8 @@ class Player extends Component {
 
     componentWillMount(props) {
         this.setState({
-            unitsListed: lodash.values(unitsObj),
+            unitsListed: Object.values(unitsObj).sort((a, b) => a.name.localeCompare(b.name)),
+            value: 0,
         })
     }
 
@@ -84,7 +85,7 @@ class Player extends Component {
                 <a>
                     <img id={unit.unit_id} src={unit.img} alt={unit.name} className={unit.own ? 'unit-img' : 'unit-img unit-hide' } />
                 </a>
-                <div>{unit.name}</div>
+                <div><a href={'https://exvius.gamepedia.com/'+unit.name.replace(/\s/g, "_")}>{unit.name}</a></div>
             </div>
         )   )
     }
