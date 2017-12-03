@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import lodash from 'lodash'
 import unitsObj from '../units.json'
 // eslint-disable-next-line
 import firebase, { auth, provider } from '../firebase'
@@ -13,6 +12,7 @@ import About from './about'
 import User from './user'
 import './css/units.css'
 import 'font-awesome/css/font-awesome.min.css'
+import Unit from './Unit';
 
 function TabContainer({ children, dir }) {
     return (
@@ -50,6 +50,7 @@ class Units extends Component {
         this.addUnitToMyList = this.addUnitToMyList.bind(this);
         this.changeFilter = this.changeFilter.bind(this);
         this.resetFilters = this.resetFilters.bind(this);
+        this.updateOwnedList = this.updateOwnedList.bind(this);
     }
 
     handleChange = (event, value) => {
@@ -61,13 +62,28 @@ class Units extends Component {
     };
 
     updateOwnedList() {
-      if (!this.state.user) return;
+      if (!this.state.user) {
+        console.warn('updateOwnedList(): no user');
+        return;
+      }
+      const user = this.state.user;
       const refUrl = `ffbexvius/users/${user.uid}/units/`;
 
       firebase.database()
         .ref(refUrl)
         .on('value', snapshot => {
-          console.log(snapshot.val);
+          const storedUnits = snapshot.val();
+          const ownedArray = Object.keys(storedUnits)
+            .map(unitId => {
+              const obj = storedUnits[unitId];
+              if (obj.own) return parseInt(unitId, 10);
+              return null;
+            })
+            .filter(unitId => !!unitId);
+
+          this.setState({
+            userUnitList: ownedArray,
+          });
         });
     }
 
@@ -77,29 +93,8 @@ class Units extends Component {
 
           this.setState(
             {user},
-            updateOwnedList
+            this.updateOwnedList
           );
-
-          /*
-            if (user) {
-                this.setState({ user });
-                firebase.database().ref('ffbexvius/users/'+user.uid+'/units/').on('value', (snapshot)  => {
-                    let listUnitsUser = lodash.values(snapshot.val())
-                    //this.setState({ userUnitList: listUnitsUser })
-                    let tempUserList = listUnitsUser // firebase
-                    let tempJsonList = this.state.unitsListed // units.json
-                    // captura os elementos do firebase em tempUserList compara com o tempJsonList e marca quais devem serem exibidos como ativos ou não usando a classe CSS unit-hide
-                    for (let j = 0; j < tempUserList.length; j++) {
-                        for (let f = 0; f < tempJsonList.length; f++) {
-                            if(tempUserList[j].unit_id === tempJsonList[f].unit_id){
-                                tempJsonList[f].own = tempUserList[j].own
-                            }
-                        }
-                    }
-                    this.setState({ unitsListed: tempJsonList})
-                })
-            }
-          */
         });
     }
 
@@ -110,23 +105,33 @@ class Units extends Component {
         }
 
         e.preventDefault()
-        console.log(unit_id)
-        let clickedUnit = document.getElementById(unit_id)
-        console.log(clickedUnit.dataset.own)
         const refUrl = `ffbexvius/users/${this.state.user.uid}/units/${unit_id}`;
-        if (clickedUnit.dataset.own === 'false') {
-            console.log('entrei aqui')
+
+        const currentUnitList = this.state.userUnitList;
+
+        const own = currentUnitList.indexOf(unit_id) >= 0;
+
+        if (!own) {
             firebase.database().ref(refUrl).set({
                 own: true,
                 unit_id: unit_id
             })
-            document.getElementById(unit_id).classList.remove("unit-hide")
+            const nextArray = [
+              ...currentUnitList,
+              unit_id,
+            ];
+            this.setState({
+              userUnitList: nextArray,
+            });
         } else {
             firebase.database().ref(refUrl).set({
                 own: false,
                 unit_id: unit_id
             })
-            document.getElementById(unit_id).className = "unit-hide"
+            const nextArray = currentUnitList.filter(id => id !== unit_id);
+            this.setState({
+              userUnitList: nextArray,
+            });
         }
     }
 
@@ -147,12 +152,14 @@ class Units extends Component {
                 return a[fieldName].localeCompare(b[fieldName]);
             })
             .map(unit => (
-                <div key={unit.unit_id} className='unit'>
-                    <a href='' onClick={(evt) => this.addUnitToMyList(evt, unit.unit_id)}>
-                        <img id={unit.unit_id} src={unit.img} alt={unit.name} className={unit.own ? 'unit-img' : 'unit-img unit-hide'} data-own={unit.own === true ? true : false} />
-                    </a>
-                    <div><a href={'https://exvius.gamepedia.com/'+unit.name.replace(/\s/g, "_")}>{unit.name}</a></div>
-                </div>
+              <Unit
+                key={`unit-entry-${unit.unit_id}`}
+                name={unit.name}
+                unitId={parseInt(unit.unit_id, 10)}
+                img={unit.img}
+                own={this.state.userUnitList.indexOf(parseInt(unit.unit_id, 10)) >= 0}
+                onClick={this.addUnitToMyList}
+              />
             ));
 
         if (remainingUnits.length > 0) return remainingUnits;
