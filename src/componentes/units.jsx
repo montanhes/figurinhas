@@ -73,15 +73,20 @@ class Units extends Component {
                         }
                     }
                     setTimeout(() => {
-                        this.setState({ unitsListed: tempJsonList})    
+                        this.setState({ unitsListed: tempJsonList})
                     }, 6000);
-                    
+
                 })
             }
         })
     }
 
     addUnitToMyList(e, unit_id) {
+        if (!this.state.user) {
+          // TODO: Inform the user that he's not logged in
+          return;
+        }
+
         e.preventDefault()
         console.log(unit_id)
         let clickedUnit = document.getElementById(unit_id)
@@ -103,7 +108,10 @@ class Units extends Component {
     }
 
     renderUnitsList(unitsListed, star) {
-        const filteredUnits = unitsListed.filter(unit => unit.rarity_min === star)
+        const filteredUnits = star > 0
+          ? unitsListed.filter(unit => unit.rarity_min === star)
+          : unitsListed;
+
         return filteredUnits.map(unit => (
             <div key={unit.unit_id} className='unit'>
                 <a href='' onClick={(evt) => this.addUnitToMyList(evt, unit.unit_id)}>
@@ -119,7 +127,7 @@ class Units extends Component {
         return (
             <div className='main'>
                 <aside className='sidebar'>
-                    {this.state.user ? 
+                    {this.state.user ?
                     <User userInfo={this.state.user} /> : '' }
                     <About />
                 </aside>
@@ -131,6 +139,7 @@ class Units extends Component {
                             <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /></div>} />
                             <Tab icon={<div><StarIcon /><StarIcon /></div>} />
                             <Tab icon={<StarIcon />} />
+                            <Tab icon={<div>All</div>} />
                         </Tabs>
                     </AppBar>
                     <SwipeableViews axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'} index={this.state.value} onChangeIndex={this.handleChangeIndex}>
@@ -157,6 +166,11 @@ class Units extends Component {
                         <TabContainer dir={theme.direction}>
                             <div className='unitList'>
                                 {this.renderUnitsList(this.state.unitsListed, 1)}
+                            </div>
+                        </TabContainer>
+                        <TabContainer dir={theme.direction}>
+                            <div className='unitList'>
+                                {this.renderUnitsList(this.state.unitsListed, 0)}
                             </div>
                         </TabContainer>
                     </SwipeableViews>
