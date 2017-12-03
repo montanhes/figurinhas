@@ -26,7 +26,7 @@ class MenuAppBar extends PureComponent {
             <div className={classes.root}>
                 <AppBar position="static" className={classes.appbar}>
                     <Toolbar>
-                        <Typography type="title" color="inherit" className={classes.flex}>FFBE Unit Collection</Typography>
+                        <Typography type="title" color="inherit" className={classes.flex}><a className='homeLink' href='/'>FFBE Unit Collection</a></Typography>
                             <div className='login-box'>
                                 {this.props.user ? <div className='img-box'><img className='user-img' src={this.props.user.photoURL} alt={this.props.user.displayName}/></div> : <div></div>}
                                 {this.props.user ?

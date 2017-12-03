@@ -1844,15 +1844,6 @@
         "unit_id": "255000304",
         "limited": true
     },
-    "301000103": {
-        "rarity_min": 3,
-        "rarity_max": 4,
-        "name": "Samatha",
-        "job": "Lancer",
-        "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/9/9a/Unit-Samatha-4.png",
-        "unit_id": "301000103",
-        "limited": false
-    },
     "302000104": {
         "rarity_min": 4,
         "rarity_max": 6,
@@ -1995,15 +1986,6 @@
         "job": "Cleric",
         "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/8/8f/Unit-Aiden-5.png",
         "unit_id": "302001603",
-        "limited": false
-    },
-    "303000103": {
-        "rarity_min": 3,
-        "rarity_max": 4,
-        "name": "Adel",
-        "job": "Emperor",
-        "img": "https://exvius.gamepedia.com/media/exvius.gamepedia.com/b/b9/Unit-Adel-4.png",
-        "unit_id": "303000103",
         "limited": false
     },
     "304000105": {

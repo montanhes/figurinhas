@@ -79,7 +79,10 @@ class Player extends Component {
     }
 
     renderUnitsList(unitsListed, star) {
-        const filteredUnits = unitsListed.filter(unit => unit.rarity_min === star)
+        const filteredUnits = star > 0
+        ? unitsListed.filter(unit => unit.rarity_min === star)
+        : unitsListed.filter(unit => unit.own === true);
+
         return filteredUnits.map(unit => (
             <div key={unit.unit_id} className='unit'>
                 <a>
@@ -101,6 +104,7 @@ class Player extends Component {
                         <Tab icon={<div><StarIcon /><StarIcon /><StarIcon /></div>} />
                         <Tab icon={<div><StarIcon /><StarIcon /></div>} />
                         <Tab icon={<StarIcon />} />
+                        <Tab icon={<div>All</div>} />
                     </Tabs>
                 </AppBar>
                 <SwipeableViews axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'} index={this.state.value} onChangeIndex={this.handleChangeIndex}>
@@ -127,6 +131,11 @@ class Player extends Component {
                     <TabContainer dir={theme.direction}>
                         <div className='unitList'>
                             {this.renderUnitsList(this.state.unitsListed, 1)}
+                        </div>
+                    </TabContainer>
+                    <TabContainer dir={theme.direction}>
+                        <div className='unitList'>
+                            {this.renderUnitsList(this.state.unitsListed, 0)}
                         </div>
                     </TabContainer>
                 </SwipeableViews>

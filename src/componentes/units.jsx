@@ -72,10 +72,7 @@ class Units extends Component {
                             }
                         }
                     }
-                    setTimeout(() => {
-                        this.setState({ unitsListed: tempJsonList})
-                    }, 6000);
-
+                    this.setState({ unitsListed: tempJsonList})
                 })
             }
         })
@@ -83,8 +80,8 @@ class Units extends Component {
 
     addUnitToMyList(e, unit_id) {
         if (!this.state.user) {
-          // TODO: Inform the user that he's not logged in
-          return;
+            // TODO: Inform the user that he's not logged in
+            return;
         }
 
         e.preventDefault()
@@ -109,8 +106,8 @@ class Units extends Component {
 
     renderUnitsList(unitsListed, star) {
         const filteredUnits = star > 0
-          ? unitsListed.filter(unit => unit.rarity_min === star)
-          : unitsListed;
+            ? unitsListed.filter(unit => unit.rarity_min === star)
+            : unitsListed.filter(unit => unit.own === true);
 
         return filteredUnits.map(unit => (
             <div key={unit.unit_id} className='unit'>

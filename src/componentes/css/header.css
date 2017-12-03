@@ -12,3 +12,7 @@
     align-items: center;
     justify-content: center;
 }
+.homeLink {
+    color: #FFF;
+    text-decoration: none;
+}
