@@ -42,7 +42,7 @@ class App extends Component {
 
     render() {
         return ( 
-            <div>
+            <div className='app-content'>
                 <Header user={this.state.user} login={this.login} logout={this.logout} />
                 <HashRouter basename='/'>
                     <Switch>

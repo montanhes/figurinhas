@@ -32,6 +32,10 @@ class About extends Component {
                 <Typography type="body1" component="p">
                     <a href='https://www.reddit.com/user/ramonoak/'><i className="fa fa-reddit" aria-hidden="true"></i>/u/ramonoak/</a>
                 </Typography>
+                <p>Here you can see my Units:</p>
+                <Typography>
+                        <a className='linktext' href='https://oakz.org/#/player/fXe0cgPgcsNOihpq9GrRE1xIemv1'>https://oakz.org/#/player/fXe0cgPgcsNOihpq9GrRE1xIemv1</a>
+                </Typography>
                 <div>
                     <p>If you like this app buy me a beer! =)</p>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

@@ -2,15 +2,15 @@
   "name": "figurinhas",
   "version": "0.1.0",
   "author": {
-    "name" : "Ramon Carvalho",
-    "email" : "",
-    "url" : ""
+    "name": "Ramon Carvalho",
+    "email": "",
+    "url": ""
   },
   "contributors": [
     {
-      "name" : "Sergio Moura",
-      "email" : "sergio@moura.ca",
-      "url" : "https://github.com/lsmoura"
+      "name": "Sergio Moura",
+      "email": "sergio@moura.ca",
+      "url": "https://github.com/lsmoura"
     }
   ],
   "private": true,

@@ -3,7 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-
+html, #root, .app-content {
+  height: 100%;
+}
 .unit-image-container {
   cursor: pointer;
 }
